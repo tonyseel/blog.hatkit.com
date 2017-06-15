@@ -17,13 +17,14 @@
       <h1 class="styleFontface">{{page.banner-heading}}</h1>
         <p>{{page.banner-sub-content}}</p>
     </div>
-    <div class="form-box">
+    <form class="form-box" method="post" action="http://leads.hatkit.com/form.php?form=1" id="frmSS1" onsubmit="return CheckForm1(this);">
       
-      <input name="textfield" type="text" class="input-box" id="textfield" placeholder="Name" />
+      <input name="CustomFields[13]" type="text" class="input-box" id="CustomFields_13_1" placeholder="Name" />
       <br />
-      <input name="textfield3" type="text" class="input" id="textfield3" placeholder="Email Address" /><br />
+      <input type="text" name="email" class="input"  placeholder="Email Address" /><br />
+      <input type="hidden" name="CustomFields[12]" id="CustomFields_12_1" value="{{page.campaign}}">
       <a href="#" title="FREE REPORT" class="button">FREE REPORT</a>
-    </div>
+    </form>
 	  </div>
      <div class="content-box">
        <img src="{{site.baseurl}}/image/poptwo/report-bg.jpg" alt="" width="350" height="280" class="report-bg" />
@@ -37,5 +38,44 @@
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+// <![CDATA[
+
+      function CheckMultiple1(frm, name) {
+        for (var i=0; i < frm.length; i++)
+        {
+          fldObj = frm.elements[i];
+          fldId = fldObj.id;
+          if (fldId) {
+            var fieldnamecheck=fldObj.id.indexOf(name);
+            if (fieldnamecheck != -1) {
+              if (fldObj.checked) {
+                return true;
+              }
+            }
+          }
+        }
+        return false;
+      }
+    function CheckForm1(f) {
+      var email_re = /[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/i;
+      if (!email_re.test(f.email.value)) {
+        alert("Please enter your email address.");
+        f.email.focus();
+        return false;
+      }
+    
+            if (f.format.selectedIndex == -1) {
+              alert("Please choose a format to receive your email campaigns in");
+              f.format.focus();
+              return false;
+            }
+          
+        return true;
+      }
+    
+// ]]>
+</script>
 </body>
 </html>
