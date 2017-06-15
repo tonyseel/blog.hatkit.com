@@ -18,12 +18,13 @@
       </div>
     </div>
     <div class="welcome-box"><img src="{{site.baseurl}}/image/popthree/{{page.banner}}" width="800" height="300" alt="" /></div>
-    <div class="form-box">
-     
-      <input name="textfield" type="text" class="input-box" id="textfield" placeholder="Name" />
-      <input name="textfield2" type="text" class="input-box" id="textfield2" placeholder="Email" />
-       <a href="#" title="GET THE BEST DEAL" class="button">GET THE BEST DEAL</a>
-    </div>
+   
+     <form method="post" class="form-box" action="http://leads.hatkit.com/form.php?form=1" id="frmSS1" onsubmit="return CheckForm1(this);">
+      <input name="CustomFields[13]" type="text" class="input-box" id="CustomFields_13_1" placeholder="Name"  value="" />
+      <input name="email" type="text" class="input-box"  placeholder="Email"  value="" />
+      <input type="hidden" name="CustomFields[12]" id="CustomFields_12_1" value="{{page.campaign}}">
+       <input type="submit" value="Subscribe" class="button"/>
+    </form>
     <div class="testimonial-box">
       <div class="testimonial-title">
         <h2>{{page.bottom-heading}}</h2>
@@ -41,5 +42,43 @@
   </div>
   <div id="footer"><p>© Copyright 2015-2016. All Rights Reserved  |  Designed by: </p><a href="http://buylandingpagedesign.com/" target="_blank">buylandingpagedesign.com</a></div>
 </div>
+<script type="text/javascript">
+// <![CDATA[
+
+      function CheckMultiple1(frm, name) {
+        for (var i=0; i < frm.length; i++)
+        {
+          fldObj = frm.elements[i];
+          fldId = fldObj.id;
+          if (fldId) {
+            var fieldnamecheck=fldObj.id.indexOf(name);
+            if (fieldnamecheck != -1) {
+              if (fldObj.checked) {
+                return true;
+              }
+            }
+          }
+        }
+        return false;
+      }
+    function CheckForm1(f) {
+      var email_re = /[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/i;
+      if (!email_re.test(f.email.value)) {
+        alert("Please enter your email address.");
+        f.email.focus();
+        return false;
+      }
+    
+            if (f.format.selectedIndex == -1) {
+              alert("Please choose a format to receive your email campaigns in");
+              f.format.focus();
+              return false;
+            }
+          
+        return true;
+      }
+    
+// ]]>
+</script>
 </body>
 </html>
