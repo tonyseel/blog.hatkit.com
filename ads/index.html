@@ -1,0 +1,146 @@
+--- 
+layout: default 
+---
+<div class="widget recent-posts">
+    <div class="post-content">
+      <h1 class="title title-large">Hot Topics</h1>
+        <p>Each of your categories can also have a description, so that it will organize your posts much more efficiently. This is yet another SEO advantage.</p>
+          <h2>Pop</h2>
+        <ul>
+        {% for post in site.posts %}
+          {% if post.categories contains 'pop' %}               
+            <li class="cat-item cat-item-1"><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                </time>
+            </li>    
+          {% endif %}             
+        {% endfor %}
+        </ul>  
+          <h2>Coupon</h2>
+         <ul>
+            {% for post in site.posts %}
+              {% if post.categories contains 'coupon' %}                   
+                <li class="cat-item cat-item-1"><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+                </li>    
+              {% endif %}             
+            {% endfor %}
+        </ul>
+         <ul>
+         <h2>Reviews</h2>
+            {% for post in site.posts %}
+              {% if post.categories contains 'reviews' %}                   
+                <li class="cat-item cat-item-1"><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+                </li>    
+              {% endif %}             
+            {% endfor %}
+        </ul>
+ 
+        <ul>
+         <h2>Forum</h2>
+            {% for post in site.posts %}
+              {% if post.categories contains 'forum' %}                   
+                <li class="cat-item cat-item-1"><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+                </li>    
+              {% endif %}             
+            {% endfor %}
+        </ul>
+        
+          <ul>
+         <h2>Advertorial</h2>
+            {% for post in site.posts %}
+              {% if post.categories contains 'advertorial' %}                   
+                <li class="cat-item cat-item-1"><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+                </li>    
+              {% endif %}             
+            {% endfor %}
+        </ul>
+        <ul>
+         <h2>Pop Left</h2>
+            {% for post in site.posts %}
+              {% if post.categories contains 'popleft' %}                   
+               <li class="cat-item cat-item-1">
+               <a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+               </li>
+              {% endif %}             
+            {% endfor %}
+        </ul>  
+        <ul>
+         <h2>Pop Right</h2>
+            {% for post in site.posts %}
+              {% if post.categories contains 'popright' %}                   
+               <li class="cat-item cat-item-1"><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+               </li>
+              {% endif %}             
+            {% endfor %}
+        </ul> 
+        <ul>
+         <h2>Pop Text</h2>
+            {% for post in site.posts %}
+              {% if post.categories contains 'poptext' %}                   
+               <li class="cat-item cat-item-1"><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+               </li>
+              {% endif %}             
+            {% endfor %}
+        </ul> 
+        <ul>
+         <h2>Pop One</h2>
+            {% for post in site.posts %}
+              {% if post.categories contains 'popone' %}                   
+               <li class="cat-item cat-item-1"><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+               </li>
+              {% endif %}             
+            {% endfor %}
+        </ul>
+        <ul>
+         <h2>Squeeze 1</h2>
+            {% for post in site.posts %}
+              {% if post.categories contains 'poptwo' %}                   
+               <li class="cat-item cat-item-1"><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+               </li>
+              {% endif %}             
+            {% endfor %}
+        </ul> 
+         <ul>
+         <h2>Squeeze 2</h2>
+            {% for post in site.posts %}
+              {% if post.categories contains 'popthree' %}                   
+               <li class="cat-item cat-item-1"><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+               </li>
+              {% endif %}             
+            {% endfor %}
+        </ul>  
+         <ul>
+         <h2>Squeeze 3</h2>
+            {% for post in site.posts %}
+              {% if post.categories contains 'popfour' %}                   
+               <li class="cat-item cat-item-1"><a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+               </li>
+              {% endif %}             
+            {% endfor %}
+        </ul>            
+    </div>
+    <!-- end .post-content -->
+</div>
+<!-- end .widget .recent-posts -->

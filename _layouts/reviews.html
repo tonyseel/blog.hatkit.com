@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>{{page.heading}}</title>
+    <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/image/reviews/favicon.png"/>
+    <link href="{{site.baseurl}}/css/reviews/style.css" rel="stylesheet" type="text/css">
+    <link href="{{site.baseurl}}/css/reviews/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="{{site.baseurl}}/css/reviews/responsive.css" rel="stylesheet" type="text/css" />
+     <script type="text/javascript" src="{{site.baseurl}}/js/reviews/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/js/reviews/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--header-top-->
+    <div class="header">
+        <div class="container">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Credit Cards</a></li>
+                    <li><a href="#">Investing</a></li>
+                    <li><a href="#">Banking</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Insurance</a></li>
+                    <li><a href="#">Taxess</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="container">
+       <div class="row">
+          <div class="col-md-8">
+                <div class="content-section">
+                <div class="main">
+                    <h1>{{page.heading}}</h1>
+                    <h6>{{page.subheading}}</h6>
+                    <ul class="viewers">
+                        <li>
+                            <a href="#"><img src="{{site.baseurl}}/image/reviews/review-lady.jpg" />by Saundra Latham</a>
+                        </li>
+                    </ul>
+                    {{page.content}}
+                </div>
+                </div>
+                <section class="comments" id="comments">
+                      
+
+                 <span class="section-title">Comments</span>
+                <ol class="comment-list">
+                      {% for comments in site.data.[page.comment-file-name] %}
+                    <li class="comment odd alt thread-odd thread-alt depth-1" id="comment-5558372">
+                        <div class="comment-snippet">
+                            <div class="top">
+                                <div class="display">
+                                    <img src="{{site.baseurl}}/image/reviews/{{comments.commenter-image}}" alt="">
+                                </div>
+                                <div class="meta">
+                                    <span class="author">
+<a href='http://www.newsbits.in' rel='external nofollow' class='url'>{{comments.commenter-name}}</a> says:</span>
+                                    <a href=# " class="date ">{{comments.comment-date}}</a>
+                                </div>
+                            </div>
+                            <div class="post-content ">
+                                <p>{{comments.comment-content | markdownify}}</p>                                
+                            </div>
+                        </div>
+                    </li>
+                   
+                     {% endfor %}
+                
+                
+                </ol>
+                
+            </section>
+            </div>
+            <div class="col-md-4">
+                <div class="social">
+                        <ul class="icons">
+                        <li><a href="https://www.facebook.com"><img src="{{site.baseurl}}/image/reviews/facebook.png"></a></li>
+                          <li><a href="https://www.twitter.com"><img src="{{site.baseurl}}/image/reviews/twitter.png"></a></li>
+                            <li><a href="https://www.google-plus.com"><img src="{{site.baseurl}}/image/reviews/google-plus.png"></a></li>
+                              <li><a href="ttps://www.linkedin.com"><img src="{{site.baseurl}}/image/reviews/linkedin.png"></a></li>
+                        </ul>
+                        <div class="featured">
+                    <img src="{{site.baseurl}}/image/reviews/simpledollar_featuredin.png">
+                    <img src="{{site.baseurl}}/image/reviews/payloan.jpg">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <input type="hidden" id="hidLocation" value="http://lab.hatkit.com/"/>
+<script type="text/javascript" src="http://lab.hatkit.com/landing.js"></script>
+</body>
+
+</html>

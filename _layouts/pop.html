@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <title>{{page.title}}</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/image/forum/favicon.png"/>
+    <link href="{{site.baseurl}}/css/pop/style.css" rel="stylesheet" type="text/css">
+    <link href="{{site.baseurl}}/css/pop/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="{{site.baseurl}}/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/js/eshop/bootstrap.min.js"></script>
+</head>
+<body> 
+ <div class="content-wrapper">
+   <div class="container">
+         {% if page.sound %}        	
+             <audio id="myAudio">
+                <source src="{{site.baseurl}}/sound/pop/{{page.sound}}" type="audio/mpeg">
+             </audio>
+         {% endif %}
+        <div class="inter-content">
+            <a href="{{page.link}}"><img src="{{site.baseurl}}/image/pop/{{page.image}}"/></a>
+        </div>
+    </div>
+ </div> 
+    <script type="text/javascript">   	     
+         
+         function play() {
+              var audioControl = document.getElementById("myAudio");
+              audioControl.onended = function(){
+              this.currentTime = 0;
+              var delay = setTimeout(function(){
+              audioControl.play();
+              clearTimeout(delay);
+            }, 5000);
+          }              
+         }
+
+        $(document).ready(function() {
+           var audiofile = document.getElementById("myAudio");
+           audiofile.play();
+           play();
+        });
+
+	  </script>
+    <input type="hidden" id="hidLocation" value="http://lab.hatkit.com/"/>
+    <script type="text/javascript" src="http://lab.hatkit.com/landing.js"></script>  
+</body>
+</html>

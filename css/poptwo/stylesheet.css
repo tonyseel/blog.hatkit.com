@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+margin:0px;
+padding:0px;
+background-color: #FFF;
+}
+*
+{
+margin:0px;
+padding:0px;
+}
+img
+{
+border:0px;
+}
+p
+{
+margin:7px 0px;
+text-align:justify;
+}
+.clear
+{
+clear:both;
+height:0px;
+}
+#container
+{
+width:860px;
+height:auto;
+margin:0px auto;
+text-align:center;
+}
+#body-main
+{
+width:830px;
+height:auto;
+float:left;
+text-align:center; padding-right:30px;    overflow-x: hidden;
+}
+.body-top { width:770px; height:50px; float:left; text-align:left;  padding:15px 0px 15px 60px;}
+.welcome-box { width:770px; height:240px; float:left; text-align:left; padding:21px 0px 0px 60px;
+font-size:24px; line-height:30px; color: #000000; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
+.welcome-box p { margin:10px 0px 7px 0px; text-align:left;}
+.banner{
+    width: 100%;
+    display: block;
+	height: 570px;}
+.form-box { width:320px; height:209px; float:left; text-align:left; padding:30px 480px 0px 30px;}
+.input-box
+{
+width:100%;
+height:30px;
+font-size:16px;
+line-height:30px;
+color: #000000;
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif; text-transform:none;
+padding-left:10px;
+padding-top:6px;
+padding-bottom:4px;
+background-color: #FFF; border:none; margin-bottom:10px;
+}
+input:focus
+{
+	outline:none;
+}
+.input
+{
+width:100%;
+height:30px;
+font-size:16px;
+line-height:30px;
+color: #000000;
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif; text-transform:none;
+padding-left:10px;
+padding-top:6px;
+padding-bottom:4px;
+background-color: #FFF; border:none; margin-bottom:10px;
+}
+.button {
+	background: #f29603;
+	text-align:center;
+	float:left;
+	padding:10px 0px;
+	width:154px;
+	height: auto;
+	text-decoration:none;
+	font-size:18px;
+	line-height:30px;
+	color: #FFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	-webkit-border-radius: 5px;
+-moz-border-radius:5px;
+border-radius: 5px;
+}
+.button:hover {
+	background: #e58f04;
+	text-align:center;
+	float:left;
+	padding:10px 0px;
+	width:154px;
+	height: auto;
+	text-decoration:none;
+	font-size:18px;
+	line-height:30px;
+	color: #FFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	-webkit-border-radius: 5px;
+-moz-border-radius:5px;
+border-radius: 5px;
+}
+.content-box { width:800px; height:auto; float:left; text-align:left; padding-top:26px; padding-bottom:18px; padding-left:30px;} .content-box p { margin:12px 0px 7px 0px; text-align:left;}
+.report-bg { float:left; margin-right:30px; margin-top:6px;}
+
+#footer { width:800px; height:auto; float:left; text-align:center; padding:0px 30px; font-size:16px; line-height:24px; color: #FFF; font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;}
+#footer a { font-size:16px; line-height:24px; color: #FFF; font-weight:normal; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+#footer a:hover { font-size:16px; line-height:24px; color: #c6ff00; font-weight:normal; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+.footer-main { width:860px; height:auto; margin:0px auto; text-align:center;}
+.footer-container { width:800px; height:auto; float:left; text-align:center; background-color: #000000; padding:28px 0px;}
+
+/* CSS Text Document */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 24px;
+	font-weight:normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+}
+body a
+{
+	color: #1884ce;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:14px;
+}
+body a:hover
+{
+	color: #ff9900;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:14px;
+}
+@font-face
+{
+ font-family: 'font153';
+ src: url(../font153.ttf)
+}
+@font-face
+{
+ font-family: 'Tungsten-Bold';
+ src: url(../Tungsten-Bold.ttf)
+}
+
+h1.styleFontface
+{
+	font-family: font153;
+	font-size:60px;
+	line-height:72px;
+	color: #1e1f24;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform:none;
+}
+h2.styleFontface
+{
+	font-family: Tungsten-Bold;
+	font-size:48px;
+	line-height:50px;
+	color: #FFF;
+	font-weight:bold;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform:none;
+}
+h3.styleFontface
+{
+	font-family: font153;
+	font-size:40px;
+	line-height:44px;
+	color: #000000;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform:none;;
+} 
+.red { color: #de0101;}
+.footer-container p{text-align: center;}
+@media only screen and (min-width:320px) and (max-width:480px) {
+	#container{width:100%;margin:0 auto;display:block}
+    #body-main {    display: block;
+    margin: 0 auto;width:100%;padding:0px}
+	.body-top{width:100%;display:block}
+	.body-top h2{font-size:24px}
+	.form-box{width:93%;    text-align: center;
+    padding: 27px 474px 0px 5px;}
+	.input-box{width:100%;}
+	.input{width:100%}.button {    margin: 0 auto;
+    display: block;
+    width: 100%;}
+	.welcome-box {width:100%;display:block}
+	.welcome-box h1{    font-size: 27px;
+		line-height: 30px;}
+	.welcome-box p{font-size: 18px;
+    line-height: 24px;}
+	.content-box{width:100%;display:block;    padding-left: 0px;}
+	.content-box img{    margin: 0 auto;
+    display: block;float:none}
+	.content-box h3{    font-size: 25px;
+    line-height: 35px;text-align:center}
+	.content-box p{ text-align: center;
+    font-size: 13px;}
+
+	#footer{width:100%;display: block;padding:0px}
+	.footer-main{width:100%;
+    display: block;}
+	.footer-container{ width: 100%;
+    display: block;}
+	.footer-container p,a{font-size:14px;text-align:center}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+	#container{width:100%;margin:0 auto;display:block}
+    #body-main {    display: block;
+    margin: 0 auto;width:100%;padding:0px}
+	.body-top{width:100%;display:block}
+	.welcome-box {width:100%;display:block}
+	.content-box{width:100%;display:block;    padding-left: 0px;}
+	#footer{width:100%;display: block;padding:0px}
+	.footer-main{width:100%;
+    display: block;}
+	.footer-container{ width: 100%;
+    display: block;}
+}
+  
+	

@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+margin:0px;
+padding:0px;
+background-color: #FFF;
+}
+*
+{
+margin:0px;
+padding:0px;
+}
+img
+{
+border:0px;
+}
+p
+{
+margin:7px 0px;
+text-align:justify;
+}
+.clear
+{
+clear:both;
+height:0px;
+}
+#container
+{
+width:800px;
+height:auto;
+margin:0px auto;
+text-align:center;
+}
+#body-main
+{
+width:800px;
+height:auto;
+float:left;
+text-align:center;
+}
+.body-top { width:800px; height:auto; float:left; text-align:left; padding:16px 0px;}
+.body-top-left { width:370px; height:auto; float:left; text-align:left;}
+.body-top-right { height:auto; float:right; text-align:right; padding-top:8px;}
+.welcome-box { width:800px; height:auto; float:left; text-align:left;}
+.form-box { width:740px; height:auto; float:left; text-align:left; background-color: #071837; padding:30px;}
+
+.input-box
+{
+width:230px;
+height:30px;
+font-size:18px;
+line-height:30px;
+color: #000000;
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif; text-transform: none;
+padding-left:10px;
+padding-top:6px;
+padding-bottom:4px;
+background-color: #FFF; border:none; margin-bottom:3px;
+	-webkit-border-radius: 5px;
+-moz-border-radius:5px;
+border-radius: 5px;
+}
+input:focus
+{
+	outline:none;
+}
+.button {
+	background: #cc3333;
+	text-align:center;
+	float:right;
+	padding:5px 0px;
+	width:240px;
+	height: auto;
+	text-decoration:none;
+	font-size:18px;
+	line-height:30px;
+	color: #FFF;
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	-webkit-border-radius: 5px;
+-moz-border-radius:5px;
+border-radius: 5px;
+}
+.button:hover {
+	background: #bf2828;
+	text-align:center;
+	float:right;
+	padding:5px 0px;
+	width:240px;
+	height: auto;
+	text-decoration:none;
+	font-size:18px;
+	line-height:30px;
+	color: #FFF;
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	-webkit-border-radius: 5px;
+-moz-border-radius:5px;
+border-radius: 5px;
+}
+.testimonial-box { width:800px; height:auto; float:left; text-align:left; padding-top:28px; padding-bottom:24px;}
+.testimonial-title { width:800px; height:auto; float:left; text-align:center;}
+.testimonial { width:798px; height:auto; float:left; text-align:left; padding:18px 1px 0px 1px;} .testimonial ul { margin:0px; padding:0px; list-style-type:none;}
+.testimonial ul li { width:180px; height:auto; float:left; text-align:left; display:block; margin-right:26px;}
+.testimonial-bottom-box { width:800px; height:auto; float:left; text-align:center; padding-top:26px;}
+
+#footer { width:100%; height:auto; float:left; text-align:center; padding:18px 0px; font-size:16px; line-height:24px; color: #FFF; font-weight:normal;
+font-family:Arial, Helvetica, sans-serif; background-color: #071837;}
+#footer a { font-size:16px; line-height:24px; color: #FFF; font-weight:normal; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+#footer a:hover { font-size:16px; line-height:24px; color: #e4ff00; font-weight:normal; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+
+/* CSS Text Document */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 24px;
+	font-weight:normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+}
+body a
+{
+	color: #087ec5;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:16px;
+}
+body a:hover
+{
+	color: #ff6600;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:16px;
+}
+@font-face
+{
+ font-family: 'MyriadPro-Regular';
+ src: url(../MyriadPro-Regular.ttf)
+}
+
+h1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:48px;
+	line-height:52px;
+	color: #3f3f49;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: none;
+}
+h2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:40px;
+	line-height:44px;
+	color: #3f3f49;
+	font-weight:bold;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: none;
+}
+h3.styleFontface
+{
+	font-family: MyriadPro-Regular;
+	font-size:24px;
+	line-height:28px;
+	color: #3f3f49;
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none; text-transform: none;
+}
+.red { color: #cc3333;}
+#footer p{text-align:center;font-size:16px;}
+@media only screen and (min-width:320px) and (max-width:480px) {
+	body{overflow-x: hidden;}
+	#container{width:100%;margin:0 auto;display:block}
+	#body-main{width:100%;margin:0 auto;display:block}
+	.body-top{    margin: 0 auto;
+    display: block;
+    width: 100%;}
+	.body-top-right h3{    text-align: center;
+    font-size: 18px;}
+    .welcome-box img{width: 100%;
+    height: auto;}
+    .form-box{       padding: 26px 5px 18px 5px;}
+    .body-top-left{width:100%;}
+     .body-top-right{width:100%;}
+	.body-top-left h1{    text-align: center;
+    font-size: 28px;}
+	.top-body h1{font-size:40px;}
+	.top-body h3{line-height: 43px;}
+	.welcome-box{width:100%;margin:0 auto;display:block}
+	.welcome-box img{margin:0 auto;display:block}
+	.form-box{width:100%;padding: 26px 0px 18px 0px;text-align:center}
+	.testimonial-bottom-box{width:100%;margin:0 auto;display:block;    text-align: center;}
+	.testimonial-box{width:100%;margin:0 auto;display:block}
+	.testimonial-title{text-align:center;width:100%;}
+	.testimonial-title h2{font-size: 22px;
+    line-height: 23px;}
+	.testimonial{width: 100%;
+    display: block;
+    margin: 0 auto;}
+	.testimonial ul{padding-left: 58px;}
+	.testimonial ul li{    
+  padding: 3px;}
+  .testimonial-bottom-box p{    font-size: 13px;
+    line-height: 18px;
+    padding: 5px 5px}
+    #footer p{text-align:center;font-size:14px;}
+    .button{
+    margin-right: 32px;
+   }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+	#container{width:100%;margin:0 auto;display:block}
+	#body-main{width:100%;margin:0 auto;display:block}
+	.body-top{    margin: 0 auto;
+    display: block;
+    width: 100%;}
+	.body-top-right {padding-right:10px;}
+	.body-top-left{padding-left:10px;width:50%;}
+	.body-top-left h1{line-height:35px}
+	.top-body h1{font-size:40px;}
+	.top-body h3{line-height: 43px;}
+	.welcome-box{width:100%;margin:0 auto;display:block}
+	.welcome-box img{margin:0 auto;display:block}
+	.form-box{width:100%;padding: 26px 0px 18px 0px;text-align:center}
+	.testimonial-bottom-box{width:100%;margin:0 auto;display:block;    text-align: center;}
+	.testimonial{width:100%;display:block;margin:0 auto;text-align:center}
+	.testimonial ul{padding-left: 35px;}
+	.testimonial ul li{    display: block;
+    margin-right: 9px;}
+       #footer p{text-align:center;font-size:17px;}
+}

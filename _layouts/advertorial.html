@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>{{page.title}}</title>
+    <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/image/advertorial/favicon.png"/>
+    <link href="{{site.baseurl}}/css/advertorial/style.css" rel="stylesheet" type="text/css">
+    <link href="{{site.baseurl}}/css/advertorial/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="{{site.baseurl}}/css/advertorial/responsive.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="{{site.baseurl}}/js/advertorial/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--header-top-->
+    <div class="container">
+        <div class="wrapper">
+            <div class="newsdetail">
+                <div class="container">
+                    <div class="content-wrapper">
+                        <div class="header-section">
+                            <h2>{{page.site-title}}</h2> </div>
+                        <div class="inner-section">
+                            <div class="inner-content">
+                                <div class="logo">
+                                    <img src="{{site.baseurl}}/image/advertorial/market-ticker.gif" />
+                                </div>
+                                <div class="inner-header">
+                                    <h2>{{page.sub-title}}</h2>
+                                    <h2><strong>{{page.sub-heading}}</strong></h2>
+                                </div>
+                            </div>
+                           
+                            <div class="row">
+                                <div class="col-md-1 icons">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/"><img src="{{site.baseurl}}/image/advertorial/facebook.png" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://plus.google.com/"><img src="{{site.baseurl}}/image/advertorial/google-plus.png" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/"> <img src="{{site.baseurl}}/image/advertorial/linkedin.png" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com/"> <img src="{{site.baseurl}}/image/advertorial/twitter.png" /></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="leftcontent">
+                                        <ul>
+                                            <li>
+                                                <p>{{page.content}}</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="right-content">
+                                    <img src="{{site.baseurl}}/image/advertorial/small-banner.jpg" />
+                                        <!--image tag--> <img src="{{site.baseurl}}/image/advertorial/ad.jpg" />
+
+                                      
+                                        <div class="lower-section">
+                                         
+                                           
+                                        </div>
+                                     
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-4 adbanner">
+                        <img src="image/ad.jpg"/>
+                    </div>-->
+                            </div>
+                            
+                            <!-- article comment section-->
+                            <!-- article comment section-->
+                            <div class="article-wrapper">
+                                <div class="article">
+                                    <h3>Article Comments and Discussion</h3>
+                                    <div class="article-res">("Work At Home Guy Makes Rs.6,302/Day Part-Time." )</div>
+                                    <div class="comment-section">
+                                        {% for comments in site.data.[page.comment-file-name] %}
+                                        <div class="comment-two">
+                                            <ul><!-- jekyll data type below-->
+                                            
+                                                <li><img src="{{site.baseurl}}/image/advertorial/{{comments.commenter-image}}" width="40" height="40" hspace="10" /></li>
+                                                <li><em>{{comments.commenter-name}}</em></li>
+                                                <li><small>{{comments.comment-date}} </small></li>
+                                                <li>
+                                                    <p>{{comments.comment-content | markdownify}}</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                            <!--   terms and condition-->
+                            <div class="terms">
+                                <h6>TERMS AND CONDITIONS CAREFULLY READ AND AGREE TO PURCHASE TERMS BELOW BEFORE ORDERING:</h6>
+                                <p>We are not affiliated in any way with CNN, WebTV, News Channel 6, ABC, NBC, CBS, U.S. News or FOX, Daily News and all such trademarks on this web site, whethis registered or not, are the property of their respective owners. The authors of this web site are not sponsored by or affiliated with any of the third-party trade mark or third-party registered trade mark owners, and make no representations about them, their owners, their products or services</p>
+                                <p>Presented here is an "advertorial," a combination of the meaning and intent of "advertisement" and "editorial," using an editorial format to independently report on various topics, but may include or be used as an advertisement for a particular product or service. Advertorials are comprised of factual information for the purpose of reporting to enhance or further explain specific elements to cater to the reader's interest. In-flight magazines are one example of an editorial based advertisement, or "advertorial."</p>
+                                <p>As an advertorial site, compensation for clicks, visitors, or the purchase of products featured on this site may occur. This site is not offering a job or any kind of compensation, but is offering an educational opportunity that can teach individuals how to create and enhance an income flow through entrepreneurial efforts. Anyone purchasing this program for the purpose of making money may not necessarily succeed because of the ownership of the program. Thinking "I have purchased this program so I will automatically make money" is wrong. There are many variables included in successful entrepreneurial endeavors, and success is not guaranteed, nor is any particular degree of income. Many people who have purchased the program have also pursued additional training and education, and with dedication and favorable conditions have been highly successful.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

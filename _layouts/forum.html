@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>{{page.title}}</title>
+    <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/image/forum/favicon.png"/>
+    <link href="{{site.baseurl}}/css/forum/style.css" rel="stylesheet" type="text/css">
+    <link href="{{site.baseurl}}/css/forum/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="{{site.baseurl}}/css/forum/responsive.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="{{site.baseurl}}/js/forum/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--header-top-->
+    <div class="header-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-6 menu">
+                    <ul>
+                        <li><a href="#">Feed</a> </li>
+                        <li><a href="#">Forum</a> </li>
+                        <li><a href="#">Marketplace</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-xs-6 login">
+                    <ul>
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">SIGNUP</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-lower hidden-xs">
+        <div class="container">
+            <ul class="nav">
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Advertise With us</a></li>
+                <li><a href="#">Helpdesk</a></li>
+                <li><a href="#">Today post</a></li>
+                <li><a href="#">Search</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="top-banner">
+        <img src="{{site.baseurl}}/image/forum/gifbanner.gif" />
+    </div>
+    <div class="middle-section">
+        <div class="container">
+            <h4>{{page.sub-title}}</h4>
+            <div class="row">
+                <div class="col-md-8  col-xs-6 unread-head">
+                    <h3>View First Unread</h3>
+                </div>
+                <div class="col-md-4 col-xs-6  unread-side">
+                    <ul>
+                        <li><a href="#">Linkback</a></li>
+                        <li><a href="#">Thread Tool</a></li>
+                        <li style="border-right:none"><a href="#">Search Thread</a></li>
+                    </ul>
+                </div>
+            </div>
+            {% for post in site.data.[page.data-file-name] %}
+            <div class="comment-header">
+                <div class="row">
+                    <div class="comment-wrapper">
+                        <div class="comment-heading">
+                            <h3> 6th Dec 2016, 05:46 PM</h3>
+                        </div>
+                        <div class="col-md-2 comment-left" style="border-right: 1px solid #999 ">
+                            <h2>{{post.post-name}}</h2>
+                            <span>Warrior Member</span>
+                            <ul>
+                                <li>
+                                    <p>{{post.join-date}}</p>
+                                </li>
+                                <li>
+                                    <p>Posts: 1</p>
+                                </li>
+                                <li>
+                                    <p>Thanks: 2</p>
+                                </li>
+                                <li>
+                                    <p>Thanked 1 Time in 1 Post</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9 comment-right" style="border-left:none">
+                            <div class="row comment-inner">
+                                <div class="col-md-6 tag-comment">
+                                    <h5>{{post.forum-post-title}}</h5>
+                                </div>
+                                <div class="col-md-6 socialicon">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="{{site.baseurl}}/image/forum/facebook.png" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="{{site.baseurl}}/image/forum/google-plus.png" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="{{site.baseurl}}/image/forum/linkedin.png" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="{{site.baseurl}}/image/forum/twitter.png" /></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="lower-content">
+                                    <p>{{post.forum-post-content}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="smaller-comment">
+                <div class="row small-content-wrapper">
+                    <div class="col-md-2 smallcomment-bottom-left">
+                        <p>The Following User Says Thank You to hjwill For This Useful Post:</p>
+                    </div>
+                    <div class="col-md-9 smallcomment-bottom-right">
+                        <p>{{userforum.thanks-users}}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            <!--comment header section two-->
+            <!--comment header section two-->
+            <!--  comment header section three-->
+            <div class="reply">
+                <a href="#">Post a reply</a>
+                <h5>Warrior Forum - The #1 Digital Marketing Forum & Marketplace  Search Engine Optimization  off-site SEO- need help!</h5>
+                <div class="row bookmark">
+                    <h3>Bookmark</h3>
+                    <img src="{{site.baseurl}}/image/forum//facebook1.png" />
+                </div>
+                <div class="row tags">
+                    <h3>tags</h3>
+                    <img src="{{site.baseurl}}/image/forum//facebook1.png" />
+                </div>
+                <h6>previousthread | top| next thread</h6>
+            </div>
+            <div class="postingrules">
+                <div class="row rules">
+                    <h4>Posting rules</h4>
+                    <ul class="firstrule">
+                        <li>
+                            <p>You may not post new threads</p>
+                        </li>
+                        <li>
+                            <p>You may not post attachments</p>
+                        </li>
+                        <li>
+                            <p>You may not post replies</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p>BB code is On</p>
+                        </li>
+                        <li>
+                            <p>Smilies are On</p>
+                        </li>
+                        <li>
+                            <p>HTML code is Off</p>
+                        </li>
+                        <li>
+                            <p>Smilies are On</p>
+                        </li>
+                        <li>
+                            <p>HTML code is Off</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="{{site.baseurl}}/image/forum//banner.jpg" />
+            </div>
+            <div class="smallfont" align="center">
+                <p>All times are GMT -6. The time now is </p>
+            </div>
+            <div class="term" align="center">
+                <p>Termof use policy terms </p>
+            </div>
+        </div>
+    </div>
+    <!--   footer section -->
+    <div class="footer-section">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-md-2  col-xs-4 links">
+                        <ul>
+                            <li>
+                                <h3>Support offers</h3></li>
+                            <li>
+                                <p>The War Room</p>
+                            </li>
+                            <li>
+                                <p>Warrior For Hire</p>
+                            </li>
+                            <li>
+                                <p>Warrior For Hire</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2  col-xs-4 links">
+                        <ul>
+                            <li>
+                                <h3>Support offers</h3></li>
+                            <li>
+                                <p>The War Room</p>
+                            </li>
+                            <li>
+                                <p>Warrior For Hire</p>
+                            </li>
+                            <li>
+                                <p>Warrior For Hire</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2  col-xs-4 links">
+                        <ul>
+                            <li>
+                                <h3> Special Offers</h3></li>
+                            <li>
+                                <p>The War Room</p>
+                            </li>
+                            <li>
+                                <p>Warrior For Hire</p>
+                            </li>
+                            <li>
+                                <p>Warrior For Hire</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2  col-xs-4 links">
+                        <ul>
+                            <li>
+                                <h3>Directory</h3></li>
+                            <li>
+                                <p>terms & Conditions</p>
+                            </li>
+                            <li>
+                                <p>The Team</p>
+                            </li>
+                            <li>
+                                <p>Contact us</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2  col-xs-4 links">
+                        <ul>
+                            <li>
+                                <h3>Community</h3></li>
+                            <li>
+                                <p>Freelancer.com</p>
+                            </li>
+                            <li>
+                                <p>Escrow.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2  col-xs-4 links">
+                        <ul>
+                            <li>
+                                <h3>Warrior Offers</h3></li>
+                            <li>
+                                <p>Freelancer.com</p>
+                            </li>
+                            <li>
+                                <p>Escrow.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
