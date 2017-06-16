@@ -19,11 +19,13 @@
     </div>
     <div class="welcome-box"><img src="{{site.baseurl}}/image/popthree/{{page.banner}}" width="800" height="300" alt="" /></div>
    
-     <form method="post" class="form-box" action="http://leads.hatkit.com/form.php?form=1" id="frmSS1" onsubmit="return CheckForm1(this);">
-      <input name="CustomFields[13]" type="text" class="input-box" id="CustomFields_13_1" placeholder="Name"  value="" />
-      <input name="email" type="text" class="input-box"  placeholder="Email"  value="" />
-      <input type="hidden" name="CustomFields[12]" id="CustomFields_12_1" value="{{page.campaign}}">
-       <input type="submit" value="Subscribe" class="button"/>
+    <form method="post" class="form-box" action="http://leads.hatkit.com/form.php?form=1" id="frmSS1" onsubmit="return CheckForm1(this);">
+      <input name="CustomFields[13]" type="text" class="input-box" id="CustomFields_13_1" placeholder="Name" value="" />
+      <br />
+  <input name="email" type="text" class="input" placeholder="Email Address" value=""/><br />
+  <input type="hidden" name="CustomFields[12]" id="CustomFields_12_1" value="{{page.campaign}}">
+      
+  <input type="submit" value="Subscribe" class="button"/>
     </form>
     <div class="testimonial-box">
       <div class="testimonial-title">

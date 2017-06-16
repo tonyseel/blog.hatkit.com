@@ -31,15 +31,14 @@
             <div class="form-title">
               <h3><span style="font-size:36px;">GET THE BEST DEAL</span></h3>
              Lorem ipsum dolor sit amet, consectetur adipisci elit sed do eiusmod tempor.</div>
-          <div class="form-inside">
-            <input name="textfield" type="text" class="input-box" id="textfield" onclick="this.value='';" value="Full Name" />
-            <br />
-            <input name="textfield2" type="text" class="input-box" id="textfield2" onclick="this.value='';" value="Email Address" />
-            <br />
-           
-<br />
-           <a href="#" title="CONTACT ME NOW" class="button">CONTACT ME NOW</a>
-          </div>
+           <form method="post" class="form-box" action="http://leads.hatkit.com/form.php?form=1" id="frmSS1" onsubmit="return CheckForm1(this);">
+      <input name="CustomFields[13]" type="text" class="input-box" id="CustomFields_13_1" placeholder="Name" value="" />
+      <br />
+  <input name="email" type="text" class="input" placeholder="Email Address" value=""/><br />
+  <input type="hidden" name="CustomFields[12]" id="CustomFields_12_1" value="{{page.campaign}}">
+      
+  <input type="submit" value="Subscribe" class="button"/>
+    </form>
           </div>
         </div>
       </div>
