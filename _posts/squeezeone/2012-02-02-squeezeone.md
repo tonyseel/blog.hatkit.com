@@ -1,5 +1,5 @@
 ---
-layout: poptwo
+layout: squeezeone
 date: 2012-02-02
 site-title: Better Credit Report 
 banner-heading: Get your <span class="red">FREE</span><br />
@@ -8,7 +8,7 @@ banner-sub-content: Know what creditors see </br>when you apply for credit
 heading: The Real Place to Get Your FREE Credit Report 
 banner: banner.jpg
 campaign: pump
-category: poptwo
+category: squeezeone
 
 ---
 
