@@ -1,5 +1,5 @@
 ---
-layout: popthree
+layout: squeezetwo
 date: 2011-01-01
 heading: Life Insurance
 sub-heading: Get your family the best protection
@@ -10,7 +10,7 @@ small-banner-two: testimonial-bg-02.jpg
 small-banner-three: testimonial-bg-03.jpg
 small-banner-four: testimonial-bg-04.jpg
 campaign: pump
-category: popthree
+category: squeezetwo
 ---
 
 It has survived not only five centuries, but also the leap into electronic typesetting. It has survived not only five centuries, but also the leap into electronic typesetting.
