@@ -6,12 +6,11 @@
 	.container{width:100%;margin:auto 0;display:block;}
 	.inner-container{padding:15px 15px 0px 15px;}
 	.main h3{color:#00628c;font-size:24px;text-align:center;margin-top: 3px;margin-bottom: 0px}
-	.main h4{color:#ff2600;font-size:18px;text-align:center;    margin-top: 10px;
+	.main h4{color:#ff2600;font-size:20px;text-align:center;    margin-top: 10px;
     font-weight: bold;margin-bottom: 0px}
 	.header{background-color:#00628c;width:100%;display:block;height:70px}
 	.header h2{font-size:20px;color:#fff;text-align:center;}
-	
-	.main h5{color:#8f1500;font-size:16px;text-align:center;margin-top:5px;}
+	.main h5{color:#8f1500;font-size:20px;text-align:center;margin-top:14px;}
 	.main img{text-align:center;margin:0 auto; display:block;margin-top:5px}
 	.main p{text-align:center;font-size:16px;color:#000;font-weight:bold}
 	.main p span{font-style:italic;color:#000;font-weight:bold;font-size:17px}
