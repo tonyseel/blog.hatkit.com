@@ -7,7 +7,6 @@ sub-heading: Have You The Or Loved One <br> Been Injured In a
 second-heading: Slip Ans Fall Accident?
 banner: 
 banner-content: Don't Wait, Call NOW
-campaign: pump
 category: mobilsqueezeone
 ---
 
