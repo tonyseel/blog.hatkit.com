@@ -19,7 +19,9 @@
 		<h3>{{page.heading}}</h3>
 		<h4>{{page.sub-heading}}</h4> 
 	 	<h5>{{page.second-heading}}</h5> 
+	 	   {% if page.banner %}
 		 <img src="{{site.baseurl}}/image/mobilesqueezeone/{{page.banner}}"/>
+	       {% endif %}  
 	 	<h4>{{page.banner-content}}</h4>
 		<div class="button">
          <form method="post" class="form-inside" action="http://leads.hatkit.com/form.php?form=1" id="frmSS1" onsubmit="return CheckForm1(this);">
