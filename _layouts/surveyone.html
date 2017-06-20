@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="js no-flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style="">
+<head>
+<title>{{page.title}}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/surveyone/style.css" media="all">
+
+<script src="{{site.baseurl}}/js/surveyone/modernizr.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="block_wrapper">
+	
+	<div class="wrapper">
+	
+		<h1><span style="font-weight: bold; color: black;">{{page.title}}</span></h1>
+	
+		<div class="left">
+			<div class="girl">
+				<img src="{{site.baseurl}}/image/surveyone/{{page.left-banner}}">
+			</div>
+		</div>
+	
+		<div class="right">
+	    	<div class="content">
+				<h2>{{page.heading}}</h2>                        
+				<p>
+					We have members within 5 miles near your you.
+				</p>
+				<p>
+					More text here here here
+				</p>
+				<p>
+					Registration is open for another <strong><span id="javascript_countdown_time"></span></strong>. 
+					All we ask from you is to answer 3 simple questions in order to see if you qualify for our exclusive offer.
+				</p>
+	
+				<hr>
+		</div>
+	
+	    <div class="step1 marker_show">
+            <h3>Question 1: </h3><span class="question">{{page.question-one}}</span>
+            <a href="javascript:void(0)" class="step_button step_button_1 next">YES</a>
+            <br>
+            <a href="javascript:void(0)" class="step_button step_button_2 next">NO</a>
+        </div>
+        <!-- STEP 1 END -->
+	                
+        <div class="step2 marker_show" style="display: none;">
+            <h3>Question 2: </h3><span class="question">{{page.question-two}}</span>
+            <a href="javascript:void(0)" class="step_button step_button_1 next">YES</a>
+            <br>
+            <a href="javascript:void(0)" class="step_button step_button_2 next">NO</a>
+        </div>
+        <!-- STEP 2 END -->
+	                
+        <div class="step3 marker_show" style="display: none;">
+            <h3>Question 3: </h3><span class="question">{{page.question-three}}</span>
+            <a href="javascript:void(0)" class="step_button step_button_1 run_loading">YES</a>
+            <br>
+            <a href="javascript:void(0)" class="step_button step_button_2 run_loading">NO</a>
+        </div>
+        <!-- STEP 3 END -->
+	                
+        <div class="step4 marker_show" style="display: none;">
+            <h3 class="run_loading_1 main_review">Checking answers...</h3>
+            <h3 class="run_loading_2" style="display: none;">Checking our database for exclusive offers...</h3>    
+            <h3 class="run_loading_3" style="display: none;">Checking double registrations...</h3>
+            <h3 class="run_loading_4" style="display: none;">Looking for free offers...</h3>
+            <h3 class="run_loading_5" style="display: none;">CONGRATULATIONS!</h3>
+            <center><img src="img/load.gif" alt="" class="loading" style="display: none;"></center>
+            <ul class="done_marker">
+                <li class="thank_for_close" style="display: none;">All questions answered.</li>
+                <li class="li_run_loading_2" style="display: none;">Found 3 possible offers.</li>
+				<li class="li_run_loading_1" style="display: none;">No double registrations found.</li>
+                <li class="li_run_loading_4" style="display: none;">You can now register for FREE!</li>
+            </ul>
+            <div class="show_end" style="display: none;">
+              
+                <ol class="decimal">
+                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+				   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+				   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                </ol>
+				<p class="agree_label">Failure to comply by these rules will result in the immediate termination of your account!
+If you agree to all the above, click the "I Agree" button below to proceed to the registration page.</p>
+				
+                <a target="_top" href="#" class="step_button step_button_1 agree">I AGREE</a>
+            </div>
+        </div>
+        <!-- STEP 4 END -->
+        
+	</div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	function clear_delay(timeoutID_here){
+		window.clearTimeout(timeoutID_here);
+	}
+	
+	/* Run 1 */
+	function run_loading_run_1(time_delay) {
+		timeoutID1 = window.setTimeout(run_loading_1, time_delay);
+	}
+	function run_loading_1() {
+		$('.thank_for_close, .run_loading_2').fadeIn();
+		$('.main_review').hide();
+	}
+	
+	/* Run 2 */
+    function run_loading_run_2(time_delay) {
+	    timeoutID2 = window.setTimeout(run_loading_2, time_delay);
+    }
+    function run_loading_2() {
+		$('.thank_for_close, .run_loading_2').hide();
+		$('.run_loading_3, .li_run_loading_1, .li_run_loading_2').fadeIn();
+	}
+	
+	/* Run 3 */
+	function run_loading_run_3(time_delay) {
+		timeoutID3 = window.setTimeout(run_loading_3, time_delay);
+	}
+	function run_loading_3() {
+		$('.run_loading_3').hide();
+		$('.run_loading_4, .li_run_loading_3').fadeIn();
+	}
+	
+    /* Run 4 */
+	function run_loading_run_4(time_delay) {
+		timeoutID3 = window.setTimeout(run_loading_4, time_delay);
+	}
+	function run_loading_4() {
+		$('.run_loading_4, .loading').hide();
+		$('.li_run_loading_4, li_run_loading_5, .run_loading_5, .show_end').fadeIn();
+	}
+
+	$(function() {
+	    $(document).on('click', '.next', function(e){
+	        e.preventDefault();
+	        $(this).parent().hide().next().fadeIn();
+	
+	    });
+	    $(document).on('click', '.run_loading', function(e){
+	        e.preventDefault();
+	        $(this).parent().hide().next().fadeIn();
+	        $('.step4 .loading').show();
+	        run_loading_run_1('2000');
+	        run_loading_run_2('4500');
+	        run_loading_run_3('6500');
+	        run_loading_run_4('8900');
+	    });
+	});
+</script>
+
+<script type="text/javascript">
+	/* TIMER */
+	var javascript_countdown = function () {
+	    var time_left = 10; //number of seconds for countdown
+	    var keep_counting = 1;
+	    var no_time_left_message = 'few seconds';
+	    function countdown() {
+	        if(time_left < 2) {
+	            keep_counting = 0;
+	        }
+	        time_left = time_left - 1;
+	    }
+	    function add_leading_zero( n ) {
+	        if(n.toString().length < 2) {
+	            return '0' + n;
+	        } else {
+	            return n;
+	        }
+	    }
+	    function format_output() {
+	        var hours, minutes, seconds;
+	        seconds = time_left % 60;
+	        minutes = Math.floor(time_left / 60) % 60;
+	        hours = Math.floor(time_left / 3600);   
+	        seconds = add_leading_zero( seconds );
+	        minutes = add_leading_zero( minutes );
+	        hours = add_leading_zero( hours );
+	        return minutes + ' minutes and ' + seconds + ' seconds';
+	    }
+	    function show_time_left() {
+	        document.getElementById('javascript_countdown_time').innerHTML = '<span>' + format_output() + '</span>';//time_left;
+	    }
+	    function no_time_left() {
+	        document.getElementById('javascript_countdown_time').innerHTML = no_time_left_message;
+	    }
+	    return {
+	        count: function () {
+	            countdown();
+	            show_time_left();
+	        },
+	        timer: function () {
+	            javascript_countdown.count();
+	            if(keep_counting) {
+	                setTimeout("javascript_countdown.timer();", 1000);
+	            } else {
+	                no_time_left();
+	            }
+	        },
+	        init: function (n) {
+	            time_left = n;
+	            javascript_countdown.timer();
+	        }
+	    };
+	}();
+	javascript_countdown.init(290);
+	/* TIMER END */
+</script>
+	</div>      
+</body>
+</html>
