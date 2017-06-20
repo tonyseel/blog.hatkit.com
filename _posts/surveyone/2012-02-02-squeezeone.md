@@ -1,6 +1,6 @@
 ---
 layout: surveyone
-date: 2006-03-03
+date: 2012-02-02
 title: This is your headline
 left-banner: img.jpg
 heading: This is your subheadline
