@@ -7,6 +7,6 @@ heading: This is your subheadline
 question-one: Here goes question 1?
 question-two: Here goes question 2?
 question-three: Here goes question 3?
-url: https://www.google.com
+url: www.google.com
 category: surveyone
 ---
