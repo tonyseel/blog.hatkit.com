@@ -6,6 +6,11 @@
     <title>{{page.top-title}}</title>
     <meta name="viewport" content="width=device-width; initial-scale=1.0;">
     <link href="{{site.baseurl}}/css/mobileone/style.css" rel="stylesheet" type="text/css" media="all" />
+     <script type="text/javascript">
+        function add_number(){
+            document.getElementById('number').setAttribute( "class", {{page.id}} ); 
+        }         
+     </script>     
 </head>
 
 <body>
@@ -24,9 +29,9 @@
                 <h4>{{page.banner-content}}</h4>
                 <div class="button">
                   
-                    <span class="ppc_integration ppc_id_338016_211108">
+                    <span id="number" onclick="add_number();">
                       <a href="#" class="ppc_link ">
-                        <span class="ppc_number click" >Click Here To Call</span>
+                        <span class="ppc_number click">Click Here To Call</span>
                     </a>
                     </span>
                 </div>
