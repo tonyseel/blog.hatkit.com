@@ -1,8 +1,8 @@
 ---
 layout: mobileone
 date: 2022-02-02
-top-title: Looking for Toilet Repair?
-heading: We are Plumbing professionals  
+top-title: Toilet Repair?
+heading:   
 sub-heading: We repair Toilet, Tub, <br> Shower & Sink  
 second-heading: Hire the right professional?
 banner: toilet-repair.jpg
