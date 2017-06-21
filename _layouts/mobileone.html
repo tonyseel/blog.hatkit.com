@@ -6,12 +6,7 @@
     <title>{{page.top-title}}</title>
     <meta name="viewport" content="width=device-width; initial-scale=1.0;">
     <link href="{{site.baseurl}}/css/mobileone/style.css" rel="stylesheet" type="text/css" media="all" />
-     <script type="text/javascript">
-        window.onload = function() {
-            //document.getElementById('number').setAttribute( "class", {{page.id}} );
-             document.getElementById('number').className = '{{page.number}}';
-        };         
-     </script>     
+         
 </head>
 
 <body>
@@ -29,11 +24,11 @@
                 <img src="{{site.baseurl}}/image/mobileone/banner.jpg" />
                 <h4>{{page.banner-content}}</h4>
                    <div class="button">               
-                    <span id="number">
-                      <a href="#" class="ppc_link ">
-                        <span class="ppc_number"> </span>
-                      </a>
-                    </span>
+                        <span id="number">
+                          <a href="#" class="ppc_link ">
+                            <span class="ppc_number">{{page.number}} </span>
+                          </a>
+                        </span>
                    </div> 
                 <p></p>
             </div>
