@@ -5,7 +5,7 @@ top-title: Shower Repair?
 heading:   
 sub-heading: We do shower, <br> pipe repair & installation  
 second-heading: 
-banner: shower-repair.jpg
+banner: shower-plumbing.jpg
 banner-content: Don't Wait, Call NOW
 number: 855-329-5972
 category: mobileone
