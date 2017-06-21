@@ -7,7 +7,7 @@ sub-heading: Have You The Or Loved One <br> Been Injured In a
 second-heading: Slip Ans Fall Accident?
 banner: banner.jpg
 banner-content: Don't Wait, Call NOW
-id: 338016_211108
+id: 338016211108
 category: mobileone
 ---
 
