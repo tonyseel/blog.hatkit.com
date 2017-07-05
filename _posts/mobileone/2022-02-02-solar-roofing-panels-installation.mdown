@@ -1,7 +1,7 @@
 ---
 layout: mobileone
 date: 2022-02-02
-top-title: Total Solar Installation ?
+top-title: Solar Installation
 heading:   
 sub-heading: Solar Panels, <br> Solar Roofing etc.  
 second-heading: 
