@@ -10,6 +10,7 @@
     margin: 0 auto;
     display: block;
     width: 100%;}
+    .content p{width:100%;}
 	.content-section{margin-top:20px}
 	.content h2 {font-size:18px}
 	.content p{font-size: 14px;}
@@ -22,6 +23,7 @@
 @media only screen and (min-width:768px) and (max-width:1024px)
 {
    .banner img{display:none}
+    .content p{width:100%;}
 	.banner-content{text-align:center;display:inline-block;margin:0 auto;width:100%;margin-bottom:20px}
 	.banner-content h3{text-align:center;font-size:32px}
 	.banner-content h5{text-align:center;font-size:19px;line-height:1.4em;   margin-bottom:10px;}
