@@ -8,8 +8,8 @@
 {
 	.banner img{display:none}
 	.banner-content{text-align:center;display:inline-block;margin:0 auto}
-	.banner-content h3{text-align:center;font-size:23px}
-	.banner-content h5{text-align:center;font-size:14px;line-height:1.4em}
+	.banner-content h3{text-align:center;font-size:23px;margin-top:15px;}
+	.banner-content h5{text-align:center;font-size:14px;line-height:1.4em;   margin-bottomm:8px;}
 	.banner-content a{padding: 11px 16px;font-size: 14px;color:#fff;text-align:center;  
     margin: 0 auto;
     display: block;
@@ -28,6 +28,6 @@
    .banner img{display:none}
 	.banner-content{text-align:center;display:inline-block;margin:0 auto;width:100%;margin-bottom:20px}
 	.banner-content h3{text-align:center;font-size:32px}
-	.banner-content h5{text-align:center;font-size:19px;line-height:1.4em}
+	.banner-content h5{text-align:center;font-size:19px;line-height:1.4em;   margin-bottom:10px;}
 	.banner-content a{margin-top:20px;padding: 11px 16px;font-size: 16px;color:#fff;display:block;margin:0 auto;width:100%;text-align:center;}
 }
