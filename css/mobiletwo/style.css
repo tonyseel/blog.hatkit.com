@@ -152,4 +152,5 @@ body, h2,h3,h4,h5,p,a {font-family: 'Roboto', sans-serif;}
     text-transform: uppercase;
     color: #ef7c46 !important;
     font-weight: 600 !important}
+.products li {float:left;padding:5px;}
     
