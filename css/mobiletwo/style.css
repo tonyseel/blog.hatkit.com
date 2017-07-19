@@ -156,3 +156,5 @@ body, h2,h3,h4,h5,p,a {font-family: 'Roboto', sans-serif;}
     padding: 7px 27px;
     padding-left: 0px;}
 .products li a{color:#fff;font-size:16px;} 
+.products li i{padding-right: 5px;
+    color: #ef7c46;}
