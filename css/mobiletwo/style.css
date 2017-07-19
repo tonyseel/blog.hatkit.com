@@ -146,11 +146,15 @@ body, h2,h3,h4,h5,p,a {font-family: 'Roboto', sans-serif;}
 .newletter p{line-height: 2em;font-size:16px;color:#fff;text-align:left}
 .newletter a{background-color:#69c0bc;padding:17px 17px;color:#fff;    box-shadow: 0 3px 0 #4d8f8b !important;float:left;margin-top:10px}
 .social-icon li{float:left;padding:10px;padding-left:0px}
-.social{float:left;    width: 100%;
+.social{width: 100%;
     display: inline-block;}
 .social h3{font-size: 13px;
     text-transform: uppercase;
     color: #ef7c46 !important;
     font-weight: 600 !important}
-.products li {float:left;padding:5px;}
+.products li { float: left;
+    padding: 7px 31px;
+    padding-left: 0px;}
+    .products li a{color:#fff;line-height: 2em;
+    font-size: 16px;}
     
