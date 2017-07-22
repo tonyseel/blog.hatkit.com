@@ -1,5 +1,5 @@
 <url>
-  <loc>https://jeriljose.github.io{{site.baseurl}}{{include.entry.url}}</loc>
+  <loc>{{site.baseurl}}{{include.entry.url}}</loc>
   {% if include.entry.changefreq %}
     <changefreq>{{include.entry.changefreq}}</changefreq>
   {% endif %}
