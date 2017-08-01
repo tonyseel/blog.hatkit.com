@@ -3,14 +3,14 @@ layout: post
 author: John
 title: "Personal finance Q&A: Don't hire a credit repair firm"
 date: 2017-08-01
-image: 
+image: george.png
 image-desc: Car Buyers Guide 
 tags: [Shopping]
 featured: "no"
 category: blog
 ---
 
-> George is an individual credit repair consultant and offers affordable and timely credit repair services. You can get in touch with her for free consultation. She offers credit repair services for all 3 credit bureaus. You can find her at: 
+> George is an individual credit repair consultant and offers affordable and timely credit repair services. You can get in touch with her for free consultation. She offers credit repair services for all 3 credit bureaus. You can find her at https://jeriljose.github.io/one/
 
 Dear George: I'm seeking help in reviewing my credit report and how to fix any issues. I am not financially distressed, but have FICO scores in the 675 range. Could you recommend someone I can hire to assist as I need to refinance a house I bought for cash?
 
