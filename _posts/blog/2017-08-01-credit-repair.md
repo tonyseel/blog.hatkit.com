@@ -10,9 +10,9 @@ featured: "no"
 category: blog
 ---
 
-> Rachael is an individual credit repair consultant and offers affordable and timely credit repair services. You can get in touch with her for free consultation. She offers credit repair services for all 3 credit bureaus. You can contact her at:
+> George is an individual credit repair consultant and offers affordable and timely credit repair services. You can get in touch with her for free consultation. She offers credit repair services for all 3 credit bureaus. You can contact her at:
 
-Dear Rachael: I'm seeking help in reviewing my credit report and how to fix any issues. I am not financially distressed, but have FICO scores in the 675 range. Could you recommend someone I can hire to assist as I need to refinance a house I bought for cash?
+Dear George: I'm seeking help in reviewing my credit report and how to fix any issues. I am not financially distressed, but have FICO scores in the 675 range. Could you recommend someone I can hire to assist as I need to refinance a house I bought for cash?
 
 Answer: There's so much fraud in the credit repair industry that you're likely better off doing it yourself rather than exposing yourself to rip-offs.
 
