@@ -1,7 +1,7 @@
 ---
 layout: post
 author: John
-title: "Car Buyers Guide"
+title: Personal finance Q&A: Don't hire a credit repair firm
 date: 2017-08-01
 image: 
 image-desc: Car Buyers Guide 
@@ -10,18 +10,24 @@ featured: "no"
 category: blog
 ---
 
-Decades of spending quality time at automobile showrooms has provided me with an ongoing lesson on how the new car buyer in India has evolved.
+> Rachael is an individual credit repair consultant and offers affordable and timely credit repair services. You can get in touch with her for free consultation. 
 
-To start with, there are those of you who WANT to buy a car. And then, there are those of you who NEED a car. Distinct categories, and to be treated as such, this guide is aimed more at those in the NEED sub-set. I mean, if you WANT a car which can range from freedom to status symbols, then NEED is not a factor at all.
+Dear Sam: I'm seeking help in reviewing my credit report and how to fix any issues. I am not financially distressed, but have FICO scores in the 675 range. Could you recommend someone I can hire to assist as I need to refinance a house I bought for cash?
 
-The most important factor for the WANT category will therefore be the size of the pocket-book. Check it, and then go for it.
+Answer: There's so much fraud in the credit repair industry that you're likely better off doing it yourself rather than exposing yourself to rip-offs.
 
-But if you want to consider the NEED option also, then the first thing you do, well before you head for the automobile showrooms, is to sit and analyze your needs.
+Credit repair companies aren't supposed to take money upfront or promise things they can't deliver, but many do.
 
-To do this, you will need to quantify the options into two broad possible scenarios.
+One of the scammers' most common ploys is to flood the credit bureau with disputes and to take credit for any negative information that temporarily disappears. By the time the negative information pops back up on the file, the scam artists have disappeared with your money.
 
-* Is there reasonable and safe public transport available to satify the daily needs of your commute and local travel? If so, how much will this cost you on a monthly and then further on an annual basis? A safe rule of thumb is to add another 25% for unforeseen expenses as well as inflation.
+Another approach they recommend is starting over with a "clean" slate, sometimes using borrowed or stolen identification numbers. That's fraud, and even if it works, you'll often find yourself worse off with no credit history than with a flawed history.
 
-* On the other hand, what will the annual cost of owning a new car set you back? Include in this the depreciation in re-sale value, cost of insurance, fuel, regular maintenance, parking, assorted liabilities, inflation on costs, and post warranty maintenance.
+The Federal Trade Commission has some helpful advice on do-it-yourself credit repair.
 
-So now you've justified to yourself that you WANT as well as NEED a new car...
+You'll need to first get copies of your credit reports from each of the three credit bureaus, which you can do once a year for free at www.annualcreditreport.com. Dispute any inaccurate information, such as collection accounts that aren't yours or late payments that you made on time.
+
+Follow up with any creditors that persist in reporting bogus information.
+
+One relatively fast way to improve your scores is to pay down any credit card debt to 10% or less of the accounts' credit limits. Don't close any accounts while trying to improve your scores, since that won't help your score and could hurt.
+
+Opening new accounts can ding your scores as well, but it can be worth it to add another credit card to the mix if you only have one or two. If you still need help you can speak to me
