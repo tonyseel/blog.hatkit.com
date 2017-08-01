@@ -1,7 +1,7 @@
 ---
 layout: post
 author: John
-title: Personal finance Q&A: Don't hire a credit repair firm
+title: "Personal finance Q&A: Don't hire a credit repair firm"
 date: 2017-08-01
 image: 
 image-desc: Car Buyers Guide 
