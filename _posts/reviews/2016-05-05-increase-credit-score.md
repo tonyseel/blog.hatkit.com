@@ -1,7 +1,7 @@
 ---
 layout: reviews
 date: 2016-05-05
-heading: Weird Trick to Increase your Credit Score
+heading: Weird Trick Increase Credit Score
 subheading: Increase your credit score by 200pts in 1 week. Guranteed..!
 category: reviews
 comment-file-name: "payday-loans"
