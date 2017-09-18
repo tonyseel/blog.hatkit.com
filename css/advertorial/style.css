@@ -174,7 +174,7 @@ a:hover, a:focus {
     line-height: 28px;}
   .article-wrapper{
     background-color: rgb(255, 255, 255);
-    width: 100%;display:inline-block}
+    width: 100%;display:inline-block;margin-top:10px;}
 	
 	/*respond*/
 	.respond{width:100%;display:inline-block;}
