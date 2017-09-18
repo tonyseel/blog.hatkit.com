@@ -18,7 +18,7 @@ And I'd like to introduce you to the man who once invited me to the study of pro
 
 ## Math Pólya’s way 
 
-For many reasons, not the least of which is that Pólya died in 1985, you will meet him as I did – through his wildly successful '[How to Solve It](http://math.hawaii.edu/home/pdf/putnam/PolyaHowToSolveIt.pdf).' 
+For many reasons, not the least of which is that Pólya died in 1985, you will meet him as I did – through his wildly successful <a href="http://math.hawaii.edu/home/pdf/putnam/PolyaHowToSolveIt.pdf" target="_blank">'How to Solve It'</a>
 
 Penned in 1945, this book went on to sell over one million copies and was translated into 17 languages.
 
