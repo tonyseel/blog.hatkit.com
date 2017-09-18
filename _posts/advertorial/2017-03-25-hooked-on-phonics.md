@@ -14,7 +14,7 @@ We started our kids on sight reading when they were still learning to talk. Sigh
 
 My favorite reading product overall,  Little Reader, combines the whole word method with pattern phonics. However, it is intended for young children and I would say it leans more in the direction of whole words overall. It is simply AMAZING for whole word vocabulary building in particular, no doubt, and kids are exposed to 3,000 words with corresponding pictures, actual videos, and animations over the course of a year. That vocabulary exposure alone is worth doing the program and most kids end up with a much larger spoken vocabulary and clearer speech as a result.
 
-But for phonics instruction, my favorite program is Hooked on Phonics. 
+But for phonics instruction, my favorite program is Hooked on Phonics.
 
 If you are a parent that wants a clear cut "cookbook" approach to teaching your child phonics, this is it. The program is broken up into 3 steps: Lesson, Practice, Read. It's a no-brainer and you truly don't need to know a THING about teaching a child to read to use this program, just follow the steps in the book. I took advantage of their monthly payment plan and never looked back. To see my daughter finish a SECOND GRADE curriculum at 2 years old and love every second of it makes this program worth it's weight in gold to me!
 
