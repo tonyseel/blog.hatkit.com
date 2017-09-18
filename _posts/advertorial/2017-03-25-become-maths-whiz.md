@@ -12,7 +12,7 @@ Many people find mathematics daunting. If true, this piece is for you. If not, t
 
 What do you think of when you think about mathematics? Perhaps you think about x's and y's, intractable fractions, or nonsensical word problems. 
 
-I was trained as a mathematician, and I will let you in on a trade secret: That is not what mathematics is, nor where it lives. It's true that learning mathematics often involves solving problems, but it should focus on the joy of solving puzzles, rather than memorizing rules.
+<b>I was trained as a mathematician, and I will let you in on a trade secret</b>: That is not what mathematics is, nor where it lives. It's true that learning mathematics often involves solving problems, but it should focus on the joy of solving puzzles, rather than memorizing rules.
 
 And I'd like to introduce you to the man who once invited me to the study of problem solving: George Pólya.
 
