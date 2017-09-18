@@ -18,7 +18,7 @@ And I'd like to introduce you to the man who once invited me to the study of pro
 
 ## Math Pólya’s way 
 
-For many reasons, not the least of which is that Pólya died in 1985, you will meet him as I did – through his wildly successful <a href="http://math.hawaii.edu/home/pdf/putnam/PolyaHowToSolveIt.pdf" target="_blank">'How to Solve It'</a>
+For many reasons, not the least of which is that Pólya <a href="http://articles.latimes.com/1985-09-08/news/mn-2892_1_polya-george-mathematician" target="_blank">died</a> in 1985, you will meet him as I did – through his wildly successful <a href="http://math.hawaii.edu/home/pdf/putnam/PolyaHowToSolveIt.pdf" target="_blank">'How to Solve It'</a>
 
 Penned in 1945, this book went on to sell over one million copies and was translated into 17 languages.
 
@@ -37,6 +37,8 @@ John measured 2/3 cup of cottage cheese, then dumped it onto a cutting board.
 He patted the cheese into a circle and drew lines into it, one vertical, one horizontal, dividing the cheese patty into quarters. 
 
 He then carefully pushed one quarter of the cottage cheese back into its container. Voilá! Three-quarters of 2/3 cup of cottage cheese remained.
+
+![How to find ¾ of 2/3. Jennifer Ruef, CC BY](https://theconversation.imgix.net/files/185181/original/file-20170907-9603-cugdd3.png?ixlib=rb-1.1.0&q=45&auto=format&w=754)
 
 John is a mathematician and problem solver. 
 
