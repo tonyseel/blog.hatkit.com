@@ -53,6 +53,8 @@ In my work, I've met many people who love mathematics and many who find it overw
 
 And so it's an important part of my work to help people see the beauty and wonder of mathematics, and think of themselves as mathematicians.
 
-Now Jennifer Ruef, Assistant Professor of Education Studies has used Pólya four step formula to create a puzzle book for kids. It has used the same methodologies Polya used to increase mathematical skills. This Puzzle Buzz activity books are packed with age-appropriate puzzles for kids, including: Mazes, Thinking puzzles, Hidden Pictures® puzzles, Comparing, Sequencing, Letter sounds, Concentration, creativity and logic.
+Now Jennifer Ruef, Assistant Professor of Education Studies has used Pólya's four step formula to create a puzzle book for kids. It has used the same methodologies Polya mentioned in the book "How to Solve It" to increase mathematical skills. 
 
-order-safely.com is offering 2 FREE Puzzle Books perfect for kids who wants to increase their mathematical skills.
+This Puzzle Buzz activity books are packed with age-appropriate puzzles for kids, including: mazes, thinking puzzles, hidden pictures® puzzles, comparing, sequencing, letter sounds, concentration, creativity and logic.
+
+order-safely.com is offering these Puzzle Books FREE of cost, perfect for kids who wants to increase their mathematical skills.
