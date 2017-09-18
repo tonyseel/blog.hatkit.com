@@ -38,8 +38,6 @@ He patted the cheese into a circle and drew lines into it, one vertical, one hor
 
 He then carefully pushed one quarter of the cottage cheese back into its container. Voilá! Three-quarters of 2/3 cup of cottage cheese remained.
 
-![How to find ¾ of 2/3. Jennifer Ruef, CC BY](https://theconversation.imgix.net/files/185181/original/file-20170907-9603-cugdd3.png?ixlib=rb-1.1.0&q=45&auto=format&w=754)
-
 John is a mathematician and problem solver. 
 
 First, he understood the problem: He needed ¾ of what the recipe called for, which was 2/3 cup. 
@@ -47,6 +45,8 @@ First, he understood the problem: He needed ¾ of what the recipe called for, wh
 Then, he made a plan, most likely visualizing in his head how he would measure and divide the cottage cheese. Finally, he carried out the plan.
 
 New brain research validates what mathematics educators have been saying for decades: Pictures help us think. Drawing pictures also happens to be another of Pólya's suggestions.
+
+![How to find ¾ of 2/3. Jennifer Ruef, CC BY](https://theconversation.imgix.net/files/185181/original/file-20170907-9603-cugdd3.png?ixlib=rb-1.1.0&q=45&auto=format&w=754)
 
 I've taught mathematics, and how to teach mathematics, for nearly 30 years. 
 
