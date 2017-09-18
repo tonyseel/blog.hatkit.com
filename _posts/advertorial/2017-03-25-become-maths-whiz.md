@@ -58,7 +58,7 @@ And so it's an important part of my work to help people see the beauty and wonde
 
 ## Introducing Puzzle Buzz for Kids
 
-Now Jennifer Ruef, Assistant Professor of Education Studies has used Pólya's four step formula to create a puzzle book for kids in a more simpler manner. It has used the same methodologies Polya mentioned in the book "How to Solve It" to increase your mathematical skills.
+Now <a href="https://education.uoregon.edu/users/jennifer-ruef" target="_blank">Jennifer Ruef</a>, Assistant Professor of Education Studies has used Pólya's four step formula to create a puzzle book for kids in a more simpler manner. It has used the same methodologies Polya mentioned in the book "How to Solve It" to increase your mathematical skills.
 
 This Puzzle Buzz activity books are packed with age-appropriate puzzles for kids, including: mazes, thinking puzzles, hidden pictures® puzzles, comparing, sequencing, letter sounds, concentration, creativity and logic.
 
