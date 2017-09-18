@@ -55,6 +55,7 @@ And so it's an important part of my work to help people see the beauty and wonde
 
 Now Jennifer Ruef, Assistant Professor of Education Studies has used Pólya's four step formula to create a puzzle book for kids. It has used the same methodologies Polya mentioned in the book "How to Solve It" to increase mathematical skills. 
 
+
 This Puzzle Buzz activity books are packed with age-appropriate puzzles for kids, including: mazes, thinking puzzles, hidden pictures® puzzles, comparing, sequencing, letter sounds, concentration, creativity and logic.
 
 order-safely.com is offering these Puzzle Books FREE of cost, perfect for kids who wants to increase their mathematical skills.
