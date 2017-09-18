@@ -8,7 +8,6 @@ category: advertorial
 comment-file-name: "payday-loans"
 ---
 
-
 Many people find mathematics daunting. If true, this piece is for you. If not, this piece is still for you.
 
 What do you think of when you think about mathematics? Perhaps you think about x's and y's, intractable fractions, or nonsensical word problems. 
