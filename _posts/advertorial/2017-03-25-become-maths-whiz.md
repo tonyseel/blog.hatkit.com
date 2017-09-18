@@ -1,8 +1,8 @@
 ---
 layout: advertorial
-site-title: "Become Maths Whiz"
+site-title: "Want your Kid to Become a Maths Whiz?"
 sub-title: Become Maths Whiz
-sub-heading: It might be easier than you think
+sub-heading: It might be easier than you think: Expert reveals four simple steps to improve your skills
 date: 2017-03-25
 category: advertorial
 ---
