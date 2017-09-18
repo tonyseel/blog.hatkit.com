@@ -24,7 +24,7 @@ Penned in 1945, this book went on to sell over one million copies and was transl
 
 Pólya's problem solving plan breaks down to four simple steps:
 
-Here's a classic problem from research on mathematics education done by Jean Lave. 
+<a href="http://epltt.coe.uga.edu/index.php?title=Situated_Cognition" target="_blank">Here's a classic problem</a> from research on mathematics education done by Jean Lave. 
 
 A man, let's call him John, is making ¾ of a recipe that calls for 2/3 cup of cottage cheese. What do you think John did? What would you do?
 
