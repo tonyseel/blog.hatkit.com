@@ -18,7 +18,7 @@ And I'd like to introduce you to the man who once invited me to the study of pro
 
 ## Math Pólya’s way 
 
-For many reasons, not the least of which is that Pólya died in 1985, you will meet him as I did – through his wildly successful 'How to Solve It.' 
+For many reasons, not the least of which is that Pólya died in 1985, you will meet him as I did – through his wildly successful '[How to Solve It](http://math.hawaii.edu/home/pdf/putnam/PolyaHowToSolveIt.pdf).' 
 
 Penned in 1945, this book went on to sell over one million copies and was translated into 17 languages.
 
@@ -54,7 +54,7 @@ In my work, I've met many people who love mathematics and many who find it overw
 
 And so it's an important part of my work to help people see the beauty and wonder of mathematics, and think of themselves as mathematicians.
 
-Introducing Puzzle Buzz
+## Introducing Puzzle Buzz
 
 Now Jennifer Ruef, Assistant Professor of Education Studies has used Pólya's four step formula to create a puzzle book for kids in a more simpler manner. It has used the same methodologies Polya mentioned in the book "How to Solve It" to increase your mathematical skills.
 
