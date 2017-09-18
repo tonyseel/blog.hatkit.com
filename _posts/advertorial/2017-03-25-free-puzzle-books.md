@@ -2,7 +2,7 @@
 layout: advertorial
 site-title: "FREE Puzzle Books"
 sub-title: Want your kid to become a math whiz? 
-sub-heading: It might be easier than you think: Expert reveals four simple steps to improve your skills.
+sub-heading: It might be easier than you think: Expert reveals four simple steps to
 date: 2017-03-25
 category: advertorial
 comment-file-name: "payday-loans"
