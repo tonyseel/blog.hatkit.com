@@ -56,7 +56,7 @@ In my work, I've met many people who love mathematics and many who find it overw
 
 And so it's an important part of my work to help people see the beauty and wonder of mathematics, and think of themselves as mathematicians.
 
-## Introducing Puzzle Buzz
+## Introducing Puzzle Buzz for Kids
 
 Now Jennifer Ruef, Assistant Professor of Education Studies has used Pólya's four step formula to create a puzzle book for kids in a more simpler manner. It has used the same methodologies Polya mentioned in the book "How to Solve It" to increase your mathematical skills.
 
