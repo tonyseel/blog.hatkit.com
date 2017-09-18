@@ -5,6 +5,7 @@ sub-title: Want your Kid to Become a Maths Whiz
 sub-heading: Expert reveals four simple steps to improve their skills
 date: 2017-03-25
 category: advertorial
+comment-file-name: "puzzle-books"
 ---
 
 Many people find mathematics daunting. If true, this piece is for you. If not, this piece is still for you.
