@@ -57,4 +57,4 @@ Now Jennifer Ruef, Assistant Professor of Education Studies has used Pólya's fo
 
 This Puzzle Buzz activity books are packed with age-appropriate puzzles for kids, including: mazes, thinking puzzles, hidden pictures® puzzles, comparing, sequencing, letter sounds, concentration, creativity and logic.
 
-order-safely.com is offering these Puzzle Books FREE of cost, perfect for kids who wants to increase their mathematical skills.
+order-safely.com is offering these Puzzle Books FREE of cost, perfect for kids who wants to increase their mathematical abilities.
