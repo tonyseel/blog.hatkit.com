@@ -44,4 +44,4 @@ Now <a href="https://education.uoregon.edu/users/jennifer-ruef" target="_blank">
 
 This Puzzle Buzz activity books are packed with age-appropriate puzzles for kids, including: mazes, thinking puzzles, hidden pictures® puzzles, comparing, sequencing, letter sounds, concentration, creativity and logic.
 
-Highlights Puzzle Buzz is offering these <a href="http://www.mb103.com/lnk.asp?o=11680&c=918271&a=220783&l=11803">Puzzle Books</a> FREE of cost, perfect for kids who wants to increase their mathematical abilities.
+Highlights Puzzle Buzz is offering these <a href="https://goo.gl/rM8JfJ">Puzzle Books</a> FREE of cost, perfect for kids who wants to increase their mathematical abilities.
