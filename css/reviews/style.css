@@ -387,3 +387,6 @@ a:hover, a:focus {
 :-ms-input-placeholder { /* IE 10+ */
   color: #8E8C8C\9;
 }
+.advertorial-ul li {
+    font-size: 1.6rem;   
+}

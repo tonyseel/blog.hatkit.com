@@ -15,7 +15,7 @@ All the users who register with Toluna are eligible for the offer. Toluna is ran
 
 Here's how users can get free LTE data of 10GB per month:
 
-<ul type="square">
+<ul class="advertorial-ul" type="square">
   <li>1. Visit Toluna by clicking here.</li>
   <li>2. Complete the 3 step registration process.</li>
   <li>3. You will get an email after registration.</li>
