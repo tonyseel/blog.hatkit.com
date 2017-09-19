@@ -3,10 +3,10 @@ layout: poptext
 date: 2016-04-05
 sound: door.mp3
 title: T-Mobile Offer
-heading: T-Mobile's rolls out 60GB free LTE data offer. Here's how to avail it.
+heading: T-Mobile's rolls out 60GB free LTE data offer.
 heading-font-color: '#000'
 heading-font-size: '70px'
-sub-heading: In partnership with Toluna Group  
+sub-heading: Here's how to avail it  
 subheading-font-color: '#8B0000'
 subheading-font-size: '20px'
 button-text: Read Now
