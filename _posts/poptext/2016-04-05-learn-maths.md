@@ -11,7 +11,7 @@ subheading-font-color: '#fff'
 subheading-font-size: '20px'
 button-text: Read Now
 button-text-color: '#fff'
-background-image: shapes2.jpg
+background-image: shapes1.jpg
 link: http://hatkit.com/advertorial/2017/03/25/become-maths-whiz/
 button-color: '#000'
 category: poptext
