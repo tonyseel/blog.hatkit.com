@@ -1,7 +1,7 @@
 ---
 layout: reviews
 date: 2017-09-15
-heading: T-Mobile's rolls out 60GB free LTE data offer and here's how to avail it
+heading: T-Mobile's rolls out 60GB free LTE data offer: Here's how to avail it.
 subheading: In partnership with Toluna Group
 category: reviews
 comment-file-name: "tmobile"
