@@ -2,7 +2,7 @@
 layout: advertorial
 site-title: "Become Maths Whiz"
 sub-title: Want your Kid to Become a Maths Whiz?
-sub-heading: Expert reveals four simple steps to improve their skills
+sub-heading: Expert reveals 4 simple steps to improve their skills
 date: 2017-03-25
 category: advertorial
 comment-file-name: "puzzle-books"
