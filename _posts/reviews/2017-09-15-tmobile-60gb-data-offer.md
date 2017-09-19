@@ -16,13 +16,13 @@ All the users who register with Toluna are eligible for the offer. Toluna is ran
 Here's how users can get free LTE data of 10GB per month:
 
 <ul type="square">
-  <li>Visit Toluna by clicking here.</li>
-  <li>Complete the 3 step registration process.</li>
-  <li>You will get an email after registration.</li>
-  <li>Confirm your registration by clicking on the email link.</li>
-  <li>Login to the Toluna Site by entering your username and password.</li>
-  <li>Once logged in click on Internet Icon and you will be presented with T-Mobile.</li>
-  <li>Now follow the on screen banners to avail the offer.</li>
+  <li>1. Visit Toluna by clicking here.</li>
+  <li>2. Complete the 3 step registration process.</li>
+  <li>3. You will get an email after registration.</li>
+  <li>4. Confirm your registration by clicking on the email link.</li>
+  <li>5. Login to the Toluna Site by entering your username and password.</li>
+  <li>6. Once logged in click on Internet Icon and you will be presented with T-Mobile.</li>
+  <li>7. Now follow the on screen banners to avail the offer.</li>
 </ul>
 
 Once done successfully, the 10GB free data will be credited into the user's account in 24 hours. Post this, T-Mobile will automatically add 10GB free data every month into the account.
