@@ -25,6 +25,8 @@ All the users who register with Toluna are eligible for the offer. Toluna is ran
   <li>7. Now follow the on screen banners to avail the offer.</li>
 </ul>
 
+<img src="http://hatkit.com/image/reviews/toluna.jpg" alt="Toluna Groups">
+
 Once done successfully, the 10GB free data will be credited into the user's account in 24 hours. Post this, T-Mobile will automatically add 10GB free data every month into the account.
 
 The company claims that the offer is similar to its T-Mobile Monsoon offer, announced three months ago. Under the T-Mobile Monsoon offer, the company offered 10GB free data to Airtel Postpaid customers for downloading the T-Mobile android app. The validity of this offer, however, was only three months.
