@@ -388,5 +388,5 @@ a:hover, a:focus {
   color: #8E8C8C\9;
 }
 .advertorial-ul li {
-    font-size: 1.6rem;   
+    font-size: 1.6rem!important;   
 }
