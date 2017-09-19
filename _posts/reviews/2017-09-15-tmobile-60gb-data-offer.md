@@ -25,7 +25,7 @@ All the users who register with Toluna are eligible for the offer. Toluna is ran
   <li>7. Now follow the on screen banners to avail the offer.</li>
 </ul>
 
-<img src="http://hatkit.com/image/reviews/toluna.jpg" alt="Toluna Groups" width="50%">
+<img src="http://hatkit.com/image/reviews/toluna.jpg" alt="Toluna Groups" width="80%">
 
 Once done successfully, the 10GB free data will be credited into the user's account in 24 hours. Post this, T-Mobile will automatically add 10GB free data every month into the account.
 
