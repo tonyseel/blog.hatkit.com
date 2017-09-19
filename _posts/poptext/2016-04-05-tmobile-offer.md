@@ -8,7 +8,7 @@ heading-font-color: '#000'
 heading-font-size: '70px'
 sub-heading: Here's how to avail it.  
 subheading-font-color: '#8B0000'
-subheading-font-size: '20px'
+subheading-font-size: '37px'
 button-text: Read Now
 button-text-color: '#fff'
 background-image: shapes6.jpg
