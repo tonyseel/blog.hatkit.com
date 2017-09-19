@@ -12,7 +12,7 @@ subheading-font-size: '37px'
 button-text: Read Now
 button-text-color: '#fff'
 background-image: shapes6.jpg
-link: http://hatkit.com/reviews/2017/09/15/tmobile-60gb-data-offer/
+link: https://goo.gl/EUWXp6
 button-color: '#000'
 category: poptext
 ---
