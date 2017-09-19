@@ -7,7 +7,7 @@ category: reviews
 comment-file-name: "tmobile"
 ---
 
-USA's biggest telecom service provider <a href="http://t-mobile.com" target="_blank">T-Mobile</a>has announced a new plan offering users up to 60GB free LTE data for the next six month. This means 10GB data per month for a period of six months.
+USA's biggest telecom service provider <a href="http://t-mobile.com" target="_blank">T-Mobile</a> has announced a new plan offering users up to 60GB free LTE data for the next six month. This means 10GB data per month for a period of six months.
 
 The free data offer is available to the company's prepaid users. It will come into force post the expiry of the ongoing T-Mobile's Monsoon offer. This complimentary 4G data is provided in partnership with Toluna Group, a leading provider of real-time digital consumer insights 13+ with 13 million members across 68 countries.
 
