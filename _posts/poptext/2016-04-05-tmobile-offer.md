@@ -3,7 +3,7 @@ layout: poptext
 date: 2016-04-05
 sound: door.mp3
 title: T-Mobile Offer
-heading: T-Mobile's 60GB free LTE data offer.
+heading: T-Mobile's 60GB free LTE offer.
 heading-font-color: '#000'
 heading-font-size: '70px'
 sub-heading: Here's how to avail it.  
