@@ -13,10 +13,10 @@ The free data offer is available to the company's prepaid users. It will come in
 
 All the users who register with Toluna are eligible for the offer. Toluna is ranked as one of the Top 50 Most Innovative Market Research Firms on the Greenbook's 2014 GRIT Report. Only new users who register with Toluna after September 15 017 are eligible to avail the offer.
 
-Here's how users can get free LTE data of 10GB per month:
+### Here's how users can get free LTE data of 10GB per month:
 
 <ul class="advertorial-ul" type="square">
-  <li>1. Visit Toluna by clicking here.</li>
+  <li>1. Visit Toluna by clicking <a href="http://www.mb102.com/lnk.asp?o=2675&c=918271&a=220783&l=2076">here</a>.</li>
   <li>2. Complete the 3 step registration process.</li>
   <li>3. You will get an email after registration.</li>
   <li>4. Confirm your registration by clicking on the email link.</li>
