@@ -295,7 +295,7 @@ ul li {
 }
 .inner-form {    padding: 30px;
     margin: 0px;} 
-
+.inner-form label{font-size:14px;color:#fff;}
    .form-section ul li input[type=submit] {width: 100%;
     padding: 9px;
     color: #ffffff;
