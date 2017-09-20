@@ -274,3 +274,5 @@ ul li {
     *margin-left: 8.457152932878806%;
   }
 }
+ .form-section ul{width:100%;display:inline;} 
+    .form-section ul li{width:100%;padding:20px;}
