@@ -276,15 +276,22 @@ ul li {
 }
 .form-section{width: 65%;
     display: inline-block;
-    padding: 30px;
+    
     background-color: #3c8dbf;} 
     .form-section h4{font-size:15px;color:#000;text-align:center;}
     .form-section ul{margin:0px;}
-.form-section ul li{width:100%;list-style: none}
-.form-section ul li input[type=text]{width: 100%;
+.form-section ul li{width:100%;list-style: none;display:inline-block;}
+.form-section ul li input[type=text]{width: 95%;
     padding-bottom: 12px;
     padding-top: 12px;}
-    .form-top{background-color:#000;padding:20px;}
+    .form-top {
+    background-color: #053d5f;
+    padding: 10px;
+}  
+
+.inner-form {    padding: 30px;
+    margin: 0px;} 
+.form-top{background-color:#000;padding:20px;}
    .form-section ul li input[type=submit] {width: 100%;
     padding: 9px;
     color: #ffffff;
