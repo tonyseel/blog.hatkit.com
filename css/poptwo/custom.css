@@ -274,7 +274,10 @@ ul li {
     *margin-left: 8.457152932878806%;
   }
 }
-.form-section{width:80%;display:inline;} 
+.form-section{width: 65%;
+    display: inline-block;
+    padding: 30px;
+    background-color: #3c8dbf;} 
 .form-section ul li{width:100%;list-style: none}
 .form-section ul li input[type=text]{width: 100%;
     padding-bottom: 12px;
