@@ -278,6 +278,7 @@ ul li {
     display: inline-block;
     padding: 30px;
     background-color: #3c8dbf;} 
+    .form-section h4{font-size:15px;color:#000;text-align:center;}
     .form-section ul{margin:0px;}
 .form-section ul li{width:100%;list-style: none}
 .form-section ul li input[type=text]{width: 100%;
