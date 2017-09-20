@@ -1,5 +1,5 @@
 ---
-layout: popleftform
+layout: popformone
 date: 2016-04-05
 heading: Buy High Quality Cheap Fidget Spinners 
 heading-font-color: '#fff'
@@ -14,5 +14,5 @@ link: http://lab.hatkit.com/base2.php
 banner: one.png 
 line-background-color: '#02b505' 
 background-color: '#000'
-category: popleftform
+category: popformone
 ---
