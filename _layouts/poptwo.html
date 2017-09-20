@@ -39,14 +39,17 @@
                             </ul>
                              <div class="form-section">
                                <div class="form-top"><h4>Contact for Solar Rooftops</h4></div>
-                               <form class="inner-form">
+
+                               <form class="inner-form" method="post" action="{{post.link}}" id="{{post.id}}" onsubmit="return CheckForm33(this)";>
                                  <ul>
-                                     <li><label>Enter Your name</label><input type="text" placeholder="Enter Your name"></li>
-                                      <li><label>Enter Your Email</label><input type="text" placeholder="Enter your Email"></li>
-                                      <li><input type="Submit" value="Subscribe"></li>
+                                     <li><input type="text"  name="{{post.field-name}}" id="{{post.field-id}}" value="">
+                                     </li>                                   
+                                      <li><label>Enter Your Email</label><input type="text" name="email" value="" ></li>
+                                      <li><input type="Submit"  value="Subscribe"></li>
                                  </ul>
-                                 </ul>
+                                
                                </form>
+
                               </div>
                             <!-- cta -->
                             <div id="date">
@@ -69,5 +72,43 @@
     </div>
     <!-- container -->
      {% include analytics.html %}
+     <script type="text/javascript">
+// <![CDATA[
+
+            function CheckMultiple{{post.scriptvalue}}(frm, name) {
+                for (var i=0; i < frm.length; i++)
+                {
+                    fldObj = frm.elements[i];
+                    fldId = fldObj.id;
+                    if (fldId) {
+                        var fieldnamecheck=fldObj.id.indexOf(name);
+                        if (fieldnamecheck != -1) {
+                            if (fldObj.checked) {
+                                return true;
+                            }
+                        }
+                    }
+                }
+                return false;
+            }
+        function CheckForm{{post.scriptvalue}}(f) {
+            var email_re = /[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/i;
+            if (!email_re.test(f.email.value)) {
+                alert("Please enter your email address.");
+                f.email.focus();
+                return false;
+            }
+        
+                        if (f.format.selectedIndex == -1) {
+                            alert("Please choose a format to receive your email campaigns in");
+                            f.format.focus();
+                            return false;
+                        }
+                    
+                return true;
+            }
+        
+// ]]>
+</script>
 </body>
 </html>
