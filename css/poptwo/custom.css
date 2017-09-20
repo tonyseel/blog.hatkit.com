@@ -279,3 +279,10 @@ ul li {
 .form-section ul li input[type=text]{width: 100%;
     padding-bottom: 12px;
     padding-top: 12px;}
+   .form-section ul li input[type=submit] {width: 100%;
+    padding: 9px;
+    color: #ffffff;
+    background: #FF9800;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    border: none;}
