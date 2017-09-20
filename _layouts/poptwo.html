@@ -40,14 +40,15 @@
                              <div class="form-section">
                                <div class="form-top"><h4>Contact for Solar Rooftops</h4></div>
 
-<form method="post" action="" id="frmSS33" onsubmit="return CheckForm33(this);">
-   <ul>
-                                     <li><label>Enter Your Name</label><input type="text"  name="" id="" value="">
+  <form class="inner-form" method="post" action="{{page.link}}" id="{{page.id}}" onsubmit="return CheckForm33(this)";>
+                                 <ul>
+                                     <li><label>Enter Your Name</label><input type="text"  name="{{page.field-name}}" id="{{page.field-id}}" value="">
                                      </li>                                   
                                       <li><label>Enter Your Email</label><input type="text" name="email" value="" ></li>
                                       <li><input type="Submit"  value="Subscribe"></li>
                                  </ul>
-</form>
+                                
+                               </form>
                               </div>
                             <!-- cta -->
                             <div id="date">
@@ -73,7 +74,7 @@
      <script type="text/javascript">
 // <![CDATA[
 
-            function CheckMultiple{{post.scriptvalue}}(frm, name) {
+            function CheckMultiple{{page.scriptvalue}}(frm, name) {
                 for (var i=0; i < frm.length; i++)
                 {
                     fldObj = frm.elements[i];
@@ -89,7 +90,7 @@
                 }
                 return false;
             }
-        function CheckForm{{post.scriptvalue}}(f) {
+        function CheckForm{{page.scriptvalue}}(f) {
             var email_re = /[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/i;
             if (!email_re.test(f.email.value)) {
                 alert("Please enter your email address.");
