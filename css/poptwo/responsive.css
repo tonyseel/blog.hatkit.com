@@ -1,0 +1,8 @@
+@media only screen and (min-width:320px) and (max-width:767px)
+    {
+      #headline{font-size:25px;line-height:28px;}
+      #subheadline{font-size:20px;line-height:28px;}
+      .form-section{width: 100%;
+    display: inline-block;}
+    .form-section h4 {font-size:20px;}
+    }
