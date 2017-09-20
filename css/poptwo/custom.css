@@ -275,4 +275,5 @@ ul li {
   }
 }
  .form-section ul{width:100%;display:inline;} 
-    .form-section ul li{width:100%;padding:20px;list-style: none}
+.form-section ul li{width:100%;padding:20px;list-style: none}
+.form-section ul li input[type=text]{width:100%;padding:20px;}
