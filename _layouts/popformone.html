@@ -25,11 +25,14 @@
               <div class="col-md-6 content-right">
                 <h3 style="color:{{page.heading-font-color}};font-size:{{page.heading-font-size}}">{{page.heading}}</h3>
                <div class="form-section">
-               <form>
-                <input type="text" placeholder="Enter Your name">
-                 <input type="text" placeholder="Enter your Email">
+               <form method="post" action="{{page.link}}" id="frmSS33" onsubmit="return CheckForm33(this);">
+                                  <ul>
+                                     <li><label>Enter Your Name</label><input type="text"  name="{{page.field-name}}" id="{{page.field-id}}" value="">
+                                     </li>                                   
+                                      <li><label>Enter Your Email</label><input type="text" name="email" value="" ></li>
+                                      <li><input type="Submit"  value="Subscribe"></li>
+                                 </ul>
                </form>
-               </div>
       <button type="submit" value="Submit"  style="background-color:{{page.button-color}};">
       <a href="{{page.link}}" style="color:{{page.button-text-color}}";>{{page.button-text}}</a></button>
              </div>
@@ -38,6 +41,44 @@
       </div>
     </div>
  </div>
+  <script type="text/javascript">
+// <![CDATA[
+
+            function CheckMultiple{{post.scriptvalue}}(frm, name) {
+                for (var i=0; i < frm.length; i++)
+                {
+                    fldObj = frm.elements[i];
+                    fldId = fldObj.id;
+                    if (fldId) {
+                        var fieldnamecheck=fldObj.id.indexOf(name);
+                        if (fieldnamecheck != -1) {
+                            if (fldObj.checked) {
+                                return true;
+                            }
+                        }
+                    }
+                }
+                return false;
+            }
+        function CheckForm{{post.scriptvalue}}(f) {
+            var email_re = /[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/i;
+            if (!email_re.test(f.email.value)) {
+                alert("Please enter your email address.");
+                f.email.focus();
+                return false;
+            }
+        
+                        if (f.format.selectedIndex == -1) {
+                            alert("Please choose a format to receive your email campaigns in");
+                            f.format.focus();
+                            return false;
+                        }
+                    
+                return true;
+            }
+        
+// ]]>
+</script>
  <script type="text/javascript">         
          
          function play() {
@@ -61,5 +102,6 @@
     <input type="hidden" id="hidLocation" value="http://lab.hatkit.com/"/>
 <script type="text/javascript" src="http://lab.hatkit.com/landing.js"></script>
  {% include analytics.html %}
+
 </body>
 </html>
