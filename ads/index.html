@@ -75,9 +75,9 @@ layout: default
             {% endfor %}
         </ul> 
                 <ul>
-         <h2>Pop Left Form</h2>
+         <h2>Pop Form One</h2>
             {% for post in site.posts %}
-              {% if post.categories contains 'popleftform' %}                   
+              {% if post.categories contains 'popformone' %}                   
                <li class="cat-item cat-item-1">
                <a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
                     <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
