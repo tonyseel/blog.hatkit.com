@@ -73,7 +73,19 @@ layout: default
                </li>
               {% endif %}             
             {% endfor %}
-        </ul>  
+        </ul> 
+                <ul>
+         <h2>Pop Left Form</h2>
+            {% for post in site.posts %}
+              {% if post.categories contains 'popleftform' %}                   
+               <li class="cat-item cat-item-1">
+               <a href="{{site.baseurl}}{{post.url}}" title="Permanent link to{site.baseurl}}{{post.url}}">{{post.title}} </a><span>|</span>
+                    <time datetime="2015-08-13" pubdate>{{post.date | date:"%B %-d, %Y"}}
+                    </time>
+               </li>
+              {% endif %}             
+            {% endfor %}
+        </ul>   
         <ul>
          <h2>Pop Right</h2>
             {% for post in site.posts %}
