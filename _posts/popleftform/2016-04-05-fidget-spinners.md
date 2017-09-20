@@ -1,7 +1,7 @@
 ---
 layout: popformone
 date: 2016-04-05
-heading: Buy High Quality Cheap Fidget Spinners 
+heading: Buuy High Quality Cheap Fidget Spinners 
 heading-font-color: '#fff'
 heading-font-size: '40px'
 sub-heading: 
