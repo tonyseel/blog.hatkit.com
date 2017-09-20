@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<title>{{page.heading}}</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="{{site.baseurl}}/css/popleft/style.css" rel="stylesheet" type="text/css">
+<link href="{{site.baseurl}}/css/popleft/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{{site.baseurl}}/js/eshop/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/popleft/js/bootstrap.min.js"></script>
+</head>
+<body >
+ <div class="content-wrapper">
+ <div class="container">
+  
+  <div class="inter-content">
+    <div class="line" style="background-color:{{page.line-background-color}}";></div>
+      <div class="inter-wrapper" style="background-color:{{page.background-color}}";> 
+          <div class="row">
+             <div class="col-md-6 banner">
+              <ul>
+        <a href="#"><img src="{{site.baseurl}}/image/popleft/{{page.banner}}"/></a>
+                   </ul>
+                 </div>
+              <div class="col-md-6 content-right">
+                <h3 style="color:{{page.heading-font-color}};font-size:{{page.heading-font-size}}">{{page.heading}}</h3>
+               <form>
+                <input type="text" placeholder="Enter Your name">
+                 <input type="text" placeholder="Enter your Email">
+               </form>
+      <button type="submit" value="Submit"  style="background-color:{{page.button-color}};">
+      <a href="{{page.link}}" style="color:{{page.button-text-color}}";>{{page.button-text}}</a></button>
+             </div>
+             </div>
+        </div>
+      </div>
+    </div>
+ </div>
+ <script type="text/javascript">         
+         
+         function play() {
+              var audioControl = document.getElementById("myAudio");
+              audioControl.onended = function(){
+              this.currentTime = 0;
+              var delay = setTimeout(function(){
+              audioControl.play();
+              clearTimeout(delay);
+            }, 5000);
+          }              
+         }
+
+        $(document).ready(function() {
+           var audiofile = document.getElementById("myAudio");
+           audiofile.play();
+           play();
+        });
+
+    </script>
+    <input type="hidden" id="hidLocation" value="http://lab.hatkit.com/"/>
+<script type="text/javascript" src="http://lab.hatkit.com/landing.js"></script>
+ {% include analytics.html %}
+</body>
+</html>
