@@ -40,12 +40,12 @@
                              <div class="form-section">
                                <div class="form-top"><h4>Contact for Solar Rooftops</h4></div>
 
-  <form class="inner-form" method="post" action="{{page.link}}" id="{{page.id}}" onsubmit="return CheckForm33(this)";>
+  <form class="inner-form" method="post" action="{{page.link}}" id="{{page.id}}" onsubmit="return CheckForm{{page.scriptvalue}}(this)";>
                                  <ul>
                                      <li><label>Enter Your Name</label><input type="text"  name="{{page.field-name}}" id="{{page.field-id}}" value="">
                                      </li>                                   
                                       <li><label>Enter Your Email</label><input type="text" name="email" value="" ></li>
-                                      <li><input type="hidden" name="format" value="{{site.email-segment}}" /></li>
+                                      <li><input type="hidden" name="format" value="{{page.email-segment}}" /></li>
                                       <li><input type="Submit"  value="Subscribe" action="{{site.baseurl}}/thank.html"></li>
                                  </ul>
                                 
