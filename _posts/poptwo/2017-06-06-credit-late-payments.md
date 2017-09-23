@@ -7,7 +7,9 @@ bullet-one: We do the hard work for you
 bullet-two: Save money, save time
 bullet-three: Transunion, Equifax and Experian
 image: solar.png
+image-caption: this is a simple caption
 visit: www.google.com
+form-header: Subscribe for the report
 button-content: Get Quotes Now
 link: http://leads.hatkit.com/form.php?form=2
 form-id: frmSS2
