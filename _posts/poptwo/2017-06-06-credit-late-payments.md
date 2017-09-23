@@ -9,6 +9,9 @@ bullet-three: Transunion, Equifax and Experian
 image: solar.png
 image-caption: this is a simple caption
 visit: www.google.com
+
+[comment]: <> (Form details)
+
 form-header: Subscribe for the report
 button-content: Get Quotes Now
 link: http://leads.hatkit.com/form.php?form=2
