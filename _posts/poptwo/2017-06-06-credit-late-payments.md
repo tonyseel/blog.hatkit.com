@@ -2,7 +2,7 @@
 layout: poptwo
 date: 2017-06-06
 
-[comment]: <> (Page details start)
+[comment]: <> (Page details)
 
 heading: Secret Report to Remove Late Payments from Credit Report!!
 sub-heading: Start seeing results within 45 days!
@@ -13,7 +13,7 @@ image: solar.png
 image-caption: this is a simple caption
 visit: www.google.com
 
-[comment]: <> (Form details start)
+[comment]: <> (Form details)
 
 form-header: Subscribe for the report
 button-content: Get Quotes Now
