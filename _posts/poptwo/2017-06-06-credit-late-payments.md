@@ -1,6 +1,9 @@
 ---
 layout: poptwo
 date: 2017-06-06
+
+[comment]: <> (Page details start)
+
 heading: Secret Report to Remove Late Payments from Credit Report!!
 sub-heading: Start seeing results within 45 days!
 bullet-one: We do the hard work for you
@@ -10,7 +13,9 @@ image: solar.png
 image-caption: this is a simple caption
 visit: www.google.com
 
-[comment]: <> (Form details)
+[comment]: <> (Page details end)
+
+[comment]: <> (Form details start)
 
 form-header: Subscribe for the report
 button-content: Get Quotes Now
@@ -22,5 +27,8 @@ category-name: CustomFields[14]
 category-id: CustomFields_14_2
 scriptvalue: 2
 email-segment: late_payments
+
+[comment]: <> (Form details end)
+
 category: poptwo
 ---
