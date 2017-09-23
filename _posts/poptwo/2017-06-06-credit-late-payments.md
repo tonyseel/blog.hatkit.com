@@ -16,6 +16,6 @@ field-id: CustomFields_13_2
 category-name: CustomFields[14]
 category-id: CustomFields_14_2
 scriptvalue: 2
-email-segment: late_payments
+email-segment: start_clock
 category: poptwo
 ---
