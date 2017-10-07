@@ -42,8 +42,8 @@
 
                                
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://google.com';}"></iframe>
-
-<form class="inner-form" method="post" action="{{page.link}}" id="{{page.form-id}}" onsubmit="return CheckForm{{page.scriptvalue}}(this)";>
+ 
+<form class="inner-form" method="post" target="hidden_iframe" action="{{page.link}}" id="{{page.form-id}}" onsubmit="submitted=true;">
                                  <ul>
                                      <li><label>Enter Your Name</label><input type="text"  name="{{page.field-name}}" id="{{page.field-id}}" value="">
                                      </li>                                   
