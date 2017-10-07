@@ -40,7 +40,7 @@
                              <div class="form-section">
                                <div class="form-top"><h4>{{page.form-header}}</h4></div>
 
-                               <script type="text/javascript">var submitted=false;</script>
+                               
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://google.com';}"></iframe>
 
 <form class="inner-form" method="post" action="{{page.link}}" id="{{page.form-id}}" onsubmit="return CheckForm{{page.scriptvalue}}(this)";>
@@ -116,5 +116,6 @@
 </script>
 <input type="hidden" id="hidLocation" value="http://lab.hatkit.com/"/>
 <script type="text/javascript" src="http://lab.hatkit.com/landing.js"></script>
+<script type="text/javascript">var submitted=false;</script>
 </body>
 </html>
