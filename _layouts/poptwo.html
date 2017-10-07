@@ -45,10 +45,10 @@
  
 <form class="inner-form" method="post" target="hidden_iframe" action="{{page.link}}" id="{{page.form-id}}" onsubmit="submitted=true;">
                                  <ul>
-                                     <li><label>Enter Your Name</label><input type="text"  name="{{page.field-name}}" id="{{page.field-id}}" value="">
+                                     <li><label>Enter Your Name</label><input type="text"  name="{{page.field-name}}" id="name" value="">
                                      </li>                                   
-                                      <li><label>Enter Your Email</label><input type="text" name="{{page.email-name}}" value="" ></li>
-                     <li><input type="hidden" name="{{page.category-name}}" id="{{page.category-id}}" value="{{page.email-segment}}"></li>
+                                      <li><label>Enter Your Email</label><input type="text" name="{{page.field-email}}" value="" ></li>
+                     <li><input type="hidden" name="{{page.field-category}}" id="category" value="{{page.email-segment}}"></li>
                                       
                                       <li><input type="Submit"  value="{{page.button-content}}"></li>
                                  </ul>
@@ -76,44 +76,7 @@
     </div>
     <!-- container -->
      {% include analytics.html %}
-     <script type="text/javascript">
-// <![CDATA[
-
-            function CheckMultiple{{page.scriptvalue}}(frm, name) {
-                for (var i=0; i < frm.length; i++)
-                {
-                    fldObj = frm.elements[i];
-                    fldId = fldObj.id;
-                    if (fldId) {
-                        var fieldnamecheck=fldObj.id.indexOf(name);
-                        if (fieldnamecheck != -1) {
-                            if (fldObj.checked) {
-                                return true;
-                            }
-                        }
-                    }
-                }
-                return false;
-            }
-        function CheckForm{{page.scriptvalue}}(f) {
-            var email_re = /[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/i;
-            if (!email_re.test(f.email.value)) {
-                alert("Please enter your email address.");
-                f.email.focus();
-                return false;
-            }
-        
-                        if (f.format.selectedIndex == -1) {
-                            alert("Please choose a format to receive your email campaigns in");
-                            f.format.focus();
-                            return false;
-                        }
-                    
-                return true;
-            }
-        
-// ]]>
-</script>
+     
 <input type="hidden" id="hidLocation" value="http://lab.hatkit.com/"/>
 <script type="text/javascript" src="http://lab.hatkit.com/landing.js"></script>
 <script type="text/javascript">var submitted=false;</script>
