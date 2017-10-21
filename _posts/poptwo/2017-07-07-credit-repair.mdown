@@ -4,8 +4,8 @@ date: 2017-07-07
 heading: Heading 1
 sub-heading: Credit Repair Secrets
 bullet-one: Inside secrets of credit Repair
-bullet-two: Dispute credit report errors 
-bullet-three: Credit report rights
+bullet-two: How to dispute credit report errors 
+bullet-three: Find your credit report rights
 image: credit.png
 visit: www.google.com
 button-content: Find Now
