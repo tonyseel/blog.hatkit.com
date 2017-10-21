@@ -7,7 +7,7 @@ bullet-one: Inside secrets of credit Repair
 bullet-two: How to dispute credit report errors 
 bullet-three: Find your credit report rights
 image: credit.png
-visit: www.google.com
+visit: http://blog.hatkit.com/thankyou/2017/10/10/thankyou/
 button-content: Find Now
 link: https://docs.google.com/forms/d/e/1FAIpQLScUZMXS4WL9azswn3N3weKYWjRdOo4MTMxfovxVZtOZ4wxeXw/formResponse
 form-id: frmSS2
