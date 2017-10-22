@@ -2,10 +2,10 @@
 layout: poptwo
 date: 2017-07-07
 heading: Earn $15 Per Paid Survey. Each Survey directly to your Email.
-sub-heading: Quick Payment
-bullet-one: 100% Free To Join
+sub-heading: Consumer Surveys | Medical Surveys | Social Media Surveys
+bullet-one: Quick Payment
 bullet-two: Work from Mobile 
-bullet-three: World's Best Survey Panel
+bullet-three: 100% Free To Join
 image: credit.png
 visit: http://lab.hatkit.com/base2.php
 button-content: Find Now
