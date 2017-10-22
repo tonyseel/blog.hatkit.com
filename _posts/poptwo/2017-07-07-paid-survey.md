@@ -1,11 +1,11 @@
 ---
 layout: poptwo
 date: 2017-07-07
-heading: How to Stop Collection Agencies in their Tracks.
-sub-heading: Credit Repair Secrets
-bullet-one: Inside secrets of credit Repair
-bullet-two: How to dispute credit report errors 
-bullet-three: Find your credit report rights
+heading: Earn $15 Per Paid Survey. Each Survey directly to your Email.
+sub-heading: Quick Payment
+bullet-one: 100% Free To Join
+bullet-two: Work from Mobile 
+bullet-three: World's Best Survey Panel
 image: credit.png
 visit: http://lab.hatkit.com/base2.php
 button-content: Find Now
@@ -14,6 +14,6 @@ form-id: frmSS2
 field-name: entry.581065182
 field-email: entry.1522311472
 field-category: entry.2079610774
-email-segment: "credit-three"
+email-segment: "credit-five"
 category: poptwo
 ---
