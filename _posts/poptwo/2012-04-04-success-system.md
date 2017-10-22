@@ -1,7 +1,7 @@
 ---
 layout: poptwo
 date: 2022-02-02
-heading: How I Made $7200 in 23 Days by selling Alibaba Products on Amazon..!
+heading: How I Made $7200 in 23 Days by selling Aliexpress Products on Amazon..!
 sub-heading: Step by step process on identifying niche products
 bullet-one: Regain financial freedom
 bullet-two: Save money, save time
