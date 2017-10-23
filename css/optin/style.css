@@ -80,7 +80,7 @@ a:hover, a:focus {
     color: #fff;
     font-weight: 700;
     letter-spacing: 1px;}
-  .btn {
+  .btn:hover {
   background: #d9b034;
   background-image: -webkit-linear-gradient(top, #d9b034, #b82b2b);
   background-image: -moz-linear-gradient(top, #d9b034, #b82b2b);
@@ -94,7 +94,7 @@ a:hover, a:focus {
   background-image: linear-gradient(to bottom, #b82b2b, #d9b034);
   text-decoration: none;
 }
- .btn:hover {
+ .btn {
   background: #b82b2b;
   background-image: -webkit-linear-gradient(top, #b82b2b, #d9b034);
   background-image: -moz-linear-gradient(top, #b82b2b, #d9b034);
