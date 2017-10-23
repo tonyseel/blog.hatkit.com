@@ -68,7 +68,8 @@ a:hover, a:focus {
     display: inline-block;
     padding: 13px;
     border: 1px solid #a09c9c;margin-bottom:10px;}
-  .form-holder input[type=submit]{width:100%;display:inline-block; padding: 13px;}
+  .form-holder input[type=submit]{width:100%;display:inline-block; padding: 10px;
+    font-size: 22px;}
   .btn {
   background: #d9b034;
   background-image: -webkit-linear-gradient(top, #d9b034, #b82b2b);
@@ -80,7 +81,7 @@ a:hover, a:focus {
   -moz-border-radius: 6;
   border-radius: 6px;
   font-family: Arial;
-  color: #ffffff;
+  color: #000;
   font-size: 25px;
   
   text-decoration: none;
