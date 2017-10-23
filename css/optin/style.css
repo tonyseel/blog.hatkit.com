@@ -82,16 +82,12 @@ a:hover, a:focus {
     letter-spacing: 1px;}
   .btn {
   background: #d9b034;
-  background-image: -webkit-linear-gradient(top, #d9b034, #b82b2b);
-  background-image: -moz-linear-gradient(top, #d9b034, #b82b2b);
-  background-image: -ms-linear-gradient(top, #d9b034, #b82b2b);
-  background-image: -o-linear-gradient(top, #d9b034, #b82b2b);
-  background-image: linear-gradient(to bottom, #d9b034, #b82b2b);
-  -webkit-border-radius: 6;
-  -moz-border-radius: 6;
-  border-radius: -linear-gradient(top, #b82b2b, #d9b034);
+   background-image: -webkit-linear-gradient(top, #b82b2b, #d9b034);
+  background-image: -moz-linear-gradient(top, #b82b2b, #d9b034);
+  background-image: -ms-linear-gradient(top, #b82b2b, #d9b034);
   background-image: -o-linear-gradient(top, #b82b2b, #d9b034);
   background-image: linear-gradient(to bottom, #b82b2b, #d9b034);
+  text-decoration: none;
   text-decoration: none;
 }
  .btn:hover {
