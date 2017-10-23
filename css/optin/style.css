@@ -57,11 +57,12 @@ a:hover, a:focus {
 	text-decoration:none!important
 } 
 .content-wrapper{margin-top:3%}
+.form-section{width:100%;background: #ededdb;}
 .form-holder{border-radius: 16px;
     background: #ededdb;
     max-width: 500px;
     margin: 0 auto 42px;
-    padding: 34px 27px 19px;}
+    padding: 34px 27px 19px;margin:0 auto;;display:block;}
     .form-holder{width:100%;display: inline-block}
     .form-holder input[type=text]{width:100%;display:inline-block}
      .form-holder input[type=submit]{width:100%;display:inline-block}
