@@ -63,6 +63,7 @@ a:hover, a:focus {
     margin: 0 auto 42px;
     padding: 34px 27px 19px;}
     .form-holder{width:100%;display: inline-block}
+    .form-holder input[type=text]{width:100%;display:inline-block}
  
 /************************************************************************************** IE FIXING ******************************************************************/
 
