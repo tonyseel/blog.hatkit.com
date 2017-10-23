@@ -68,7 +68,11 @@ a:hover, a:focus {
     .form-holder input[type=text]{width: 100%;
     display: inline-block;
     padding: 13px;
-    border: 1px solid #a09c9c;margin-bottom:10px;}
+    border: 1px solid #a09c9c;margin-bottom:10px;    background: #ffc;
+    border: 1px solid #f4ba88;
+    border-radius: 3px;
+    
+    color: #c4c49f;}
   .form-holder input[type=submit]{width:100%;display:inline-block; padding: 10px;
     font-size:30px;color:#fff;}
   .btn {
