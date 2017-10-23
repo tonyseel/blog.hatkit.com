@@ -13,38 +13,16 @@
 <body> 
  <div class="content-wrapper">
    <div class="container">
-         {% if page.sound %}        	
-             <audio id="myAudio">
-                <source src="{{site.baseurl}}/sound/pop/{{page.sound}}" type="audio/mpeg">
-             </audio>
-         {% endif %}
-        <div class="inter-content">
-            <a href="{{page.link}}"><img src="{{site.baseurl}}/image/pop/{{page.image}}"/></a>
-        </div>
+       <div class="row">
+          <div class="form-holder">
+            <form>
+            </form>
+          </div>
+       </div>
     </div>
  </div> 
-    <script type="text/javascript">   	     
-         
-         function play() {
-              var audioControl = document.getElementById("myAudio");
-              audioControl.onended = function(){
-              this.currentTime = 0;
-              var delay = setTimeout(function(){
-              audioControl.play();
-              clearTimeout(delay);
-            }, 5000);
-          }              
-         }
-
-        $(document).ready(function() {
-           var audiofile = document.getElementById("myAudio");
-           audiofile.play();
-           play();
-        });
-
-	  </script>
-    <input type="hidden" id="hidLocation" value="http://lab.hatkit.com/"/>
-    <script type="text/javascript" src="http://lab.hatkit.com/landing.js"></script>  
+   
+   
      {% include analytics.html %}
 </body>
 </html>
