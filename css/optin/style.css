@@ -106,6 +106,8 @@ a:hover, a:focus {
   background-image: linear-gradient(to bottom, #b82b2b, #d9b034);
   text-decoration: none;
 }
+.btn-grad {background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%)}
+.btn-grad:hover { background-position: right center; }
 /************************************************************************************** IE FIXING ******************************************************************/
 6px;
   font-family: Arial;
