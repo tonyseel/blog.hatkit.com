@@ -64,7 +64,7 @@ a:hover, a:focus {
     margin: 0 auto 42px;
     padding: 34px 27px 19px;margin:0 auto;;display:block;}
     .form-holder{width:100%;}
-     .form-holder h2{font-size:40px;color:#f00;margin-top:0px;}
+     .form-holder h2{font-size:40px;color:#f00;margin-top:0px;font-family: 'Oswald', sans-serif;}
     .form-holder input[type=text]{width: 100%;
     display: inline-block;
     padding: 13px;
@@ -72,7 +72,7 @@ a:hover, a:focus {
     border: 1px solid #f4ba88;
     border-radius: 3px;
     color: #c4c49f;}
-    .form-holder label{font-size:20px;}
+    .form-holder label{font-size:20px;font-family: 'Oswald', sans-serif;}
   .form-holder input[type=submit]{width: 100%;
     display: inline-block;
     padding: 10px;
