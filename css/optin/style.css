@@ -64,13 +64,13 @@ a:hover, a:focus {
     margin: 0 auto 42px;
     padding: 34px 27px 19px;margin:0 auto;;display:block;}
     .form-holder{width:100%;}
-     .form-holder h2{font-size:22px;color:#000;mrgimn-top:0px;}
+     .form-holder h2{font-size:30px;color:#000;margin-top:0px;}
     .form-holder input[type=text]{width: 100%;
     display: inline-block;
     padding: 13px;
     border: 1px solid #a09c9c;margin-bottom:10px;}
   .form-holder input[type=submit]{width:100%;display:inline-block; padding: 10px;
-    font-size:30px;}
+    font-size:30px;color:#fff;}
   .btn {
   background: #d9b034;
   background-image: -webkit-linear-gradient(top, #d9b034, #b82b2b);
@@ -85,7 +85,15 @@ a:hover, a:focus {
   background-image: linear-gradient(to bottom, #b82b2b, #d9b034);
   text-decoration: none;
 }
- 
+ .btn:hover {
+  background: #b82b2b;
+  background-image: -webkit-linear-gradient(top, #b82b2b, #d9b034);
+  background-image: -moz-linear-gradient(top, #b82b2b, #d9b034);
+  background-image: -ms-linear-gradient(top, #b82b2b, #d9b034);
+  background-image: -o-linear-gradient(top, #b82b2b, #d9b034);
+  background-image: linear-gradient(to bottom, #b82b2b, #d9b034);
+  text-decoration: none;
+}
 /************************************************************************************** IE FIXING ******************************************************************/
 6px;
   font-family: Arial;
