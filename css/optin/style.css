@@ -79,7 +79,7 @@ a:hover, a:focus {
     font-size: 38px;
     color: #fff;
     font-weight: 700;
-    letter-spacing: 1px;background:url({{site.baseurl}}/image/optin/sprite-index.png) no-repeat -4px -59px;}
+    letter-spacing: 1px;}
   .btn {
   background: #d9b034;
   background-image: -webkit-linear-gradient(top, #d9b034, #b82b2b);
