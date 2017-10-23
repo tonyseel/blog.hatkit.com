@@ -71,8 +71,8 @@ a:hover, a:focus {
     border: 1px solid #a09c9c;margin-bottom:10px;    background: #ffc;
     border: 1px solid #f4ba88;
     border-radius: 3px;
-    color: #c4c49f;}
-    .form-holder label{font-size:20px;font-family: 'Oswald', sans-serif;}
+    color: #c4c49f;width: 300px;}
+    .form-holder label{font-size:20px;font-family: 'Oswald', sans-serif;padding:8px;}
   .form-holder input[type=submit]{width: 100%;
     display: inline-block;
     padding: 10px;
