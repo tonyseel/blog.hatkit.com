@@ -80,21 +80,8 @@ a:hover, a:focus {
     color: #fff;
     font-weight: 700;
     letter-spacing: 1px;}
-  .btn {
- 
-  background: -webkit-linear-gradient(top, #d9b034, #b82b2b);
-  background: -moz-linear-gradient(top, #d9b034, #b82b2b);
-  background: -ms-linear-gradient(top, #d9b034, #b82b2b);
-  background: -o-linear-gradient(top, #d9b034, #b82b2b);
-  background: linear-gradient(to bottom, #d9b034, #b82b2b);
-  -webkit-border-radius: 6;
-  -moz-border-radius: 6;
-  border-radius: -linear-gradient(top, #b82b2b, #d9b034);
-  background: -o-linear-gradient(top, #b82b2b, #d9b034);
-  background: linear-gradient(to bottom, #b82b2b, #d9b034);
-  text-decoration: none;
-}
- .btn:hover {
+  
+ .btn {
   background: #b82b2b;
   background-image: -webkit-linear-gradient(top, #b82b2b, #d9b034);
   background-image: -moz-linear-gradient(top, #b82b2b, #d9b034);
