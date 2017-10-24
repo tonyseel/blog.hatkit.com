@@ -1,7 +1,7 @@
 ---
 layout: poptwo
 date: 2017-07-07
-heading: Dropshipping: Blueprint to $10k a Month!
+heading: Dropshipping Blueprint to $10k a Month!
 sub-heading: Do you want to learn everything about dropshipping?
 bullet-one: Inside secrets of Dropshipping
 bullet-two: Finding Profitable Products
