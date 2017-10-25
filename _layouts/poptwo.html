@@ -8,6 +8,8 @@
     <link href="{{site.baseurl}}/css/poptwo/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/poptwo/custom.css" rel="stylesheet">
       <link href="{{site.baseurl}}/css/poptwo/responsive.css" rel="stylesheet">
+      <script src="gen_validatorv4.js" type="text/javascript"></script>
+</head>
 </head>
 <body id="body" class="" style="background-color: rgb(60, 141, 191);"> 
     <div class="container">
@@ -43,11 +45,12 @@
                                
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='{{page.visit}}';}"></iframe>
  
-<form class="inner-form" method="post" target="hidden_iframe" action="{{page.link}}" id="{{page.form-id}}" onsubmit="submitted=true;">
+<form class="inner-form" method="post" target="hidden_iframe" action="{{page.link}}" onsubmit="submitted=true;" name="myform" id="myform">
                                  <ul>
-                                     <li><label>Enter Your Name</label><input type="text"  name="{{page.field-name}}" id="name" value="">
+                                     <li><label>Enter Your Name</label><div id='myform_Name_errorloc' class="error_strings"></div>
+                                     <input type="text"  name="entry.581065182" id="name" value="">
                                      </li>                                   
-                                      <li><label>Enter Your Email</label><input type="text" name="{{page.field-email}}" value="" ></li>
+                                      <li><label>Enter Your Email</label> <div id='myform_Email_errorloc' class="error_strings"></div><input type="text" name="entry.1522311472" value="" ></li>
                      <li><input type="hidden" name="{{page.field-category}}" id="category" value="{{page.email-segment}}"></li>
                                       
                                       <li><input type="Submit"  value="{{page.button-content}}"></li>
@@ -77,7 +80,20 @@
     <!-- container -->
      {% include analytics.html %}
 
-     
+ <script language="JavaScript" type="text/javascript"
+    xml:space="preserve">//<![CDATA[
+//You should create the validator only after the definition of the HTML form
+  var frmvalidator  = new Validator("myform");
+    frmvalidator.EnableOnPageErrorDisplay();
+    frmvalidator.EnableMsgsTogether();
+
+    frmvalidator.addValidation("entry.581065182","req","Please enter your First Name");
+    frmvalidator.addValidation("entry.581065182","maxlen=20",	"Max length for FirstName is 20");
+
+    frmvalidator.addValidation("entry.1522311472","maxlen=50");
+    frmvalidator.addValidation("entry.1522311472","req");
+    frmvalidator.addValidation("entry.1522311472","email");
+//]]></script>    
 <input type="hidden" id="hidLocation" value="http://lab.hatkit.com/"/>
 <script type="text/javascript" src="http://lab.hatkit.com/landing.js"></script>
 <script type="text/javascript">var submitted=false;</script>
