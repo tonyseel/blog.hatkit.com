@@ -51,7 +51,7 @@
                                      <li><label>Enter Your Name</label><div id='myform_Name_errorloc' class="error_strings"></div>
                                      <input type="text"  name="{{page.field-name}}" id="name" value="">
                                      </li>                                   
-                                      <li><label>Enter Your Email</label> <div id='myform_Email_errorloc' class="error_strings"></div><input type="text" name="{{page.field-email}}" value="" ></li>
+                                      <li><label>Enter Your Email</label> <div id='myform_Email_errorloc' class="error_strings"></div><input type="text" name="{{page.field-email}}" id="email" value="" ></li>
                      <li><input type="hidden" name="{{page.field-category}}" id="category" value="{{page.email-segment}}"></li>
                                       
                                       <li><input type="Submit" name="submit" id='btnsubmit' value="{{page.button-content}}"></li>
@@ -88,7 +88,7 @@ function ValidateEmail(email) {
     return expr.test(email);
 };
 $("#btnsubmit").on("click", function () {
-    if (!ValidateEmail($("#entry_2").val())) {
+    if (!ValidateEmail($("#email").val())) {
         alert("Invalid email address.");
         return false;
     }
