@@ -82,6 +82,12 @@
     <!-- container -->
      {% include analytics.html %}
 
+<script>
+   function getIP(json) {
+      jQuery("#ipaddress").val(json.ip);
+   }
+</script>
+
 <script type="text/javascript">
 
 function ValidateEmail(email) {
@@ -100,12 +106,6 @@ $("#btnsubmit").on("click", function () {
     }
 });
 
-</script>
-
-<script>
-     function getIP(json) {
-       jQuery("#ipaddress").val(json.ip);
-     }
 </script>
 
 <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
