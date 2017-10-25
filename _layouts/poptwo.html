@@ -101,6 +101,15 @@ $("#btnsubmit").on("click", function () {
 });
 
 </script>
+
+<!-- START: Here's the IP stuff -->
+<script type="application/javascript">
+function getIP(json) {
+    document.getElementById("ipaddress").value = json.ip;
+}
+</script>
+
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
  
 <input type="hidden" id="hidLocation" value="http://lab.hatkit.com/"/>
 <script type="text/javascript" src="http://lab.hatkit.com/landing.js"></script>
