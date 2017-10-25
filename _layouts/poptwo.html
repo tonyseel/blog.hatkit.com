@@ -98,6 +98,7 @@ $("#btnsubmit").on("click", function () {
     else {
          getIP(json);
          var ip = json.ip;
+         alert(ip);
          $('#ipaddress').val(ip);
     }
 });
