@@ -95,11 +95,13 @@ $("#btnsubmit").on("click", function () {
         alert("Invalid email address.");
         return false;
     }
-    else {
-         getIP(json);
+    getIP(json);
          var ip = json.ip;
          alert(ip);
-         $('#ipaddress').val(ip);
+         $('#ipaddress').val(ip); 
+
+    else {
+
     }
 });
 
