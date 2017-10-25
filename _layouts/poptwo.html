@@ -102,11 +102,10 @@ $("#btnsubmit").on("click", function () {
 
 </script>
 
-<!-- START: Here's the IP stuff -->
-<script type="application/javascript">
-function getIP(json) {
-    document.getElementById("ipaddress").value = json.ip;
-}
+<script>
+     function getIP(json) {
+       jQuery("#ipaddress").val(json.ip);
+     }
 </script>
 
 <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
