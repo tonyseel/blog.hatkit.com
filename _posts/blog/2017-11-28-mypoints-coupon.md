@@ -18,7 +18,7 @@ MyPoints printable coupons are currently available for Windows Operating Systems
 
 Coupons are also available for variety of product categories like TV, Kitchen Essentials, Personal Care Gifts, Clothing and Jewelry, Watches, Furniture etc.
 
-You can get the coupons here. Once you register you will have to confirm the email to access coupons.
+You can get the [Mypoints coupons here](http://www.mb01.com/lnk.asp?o=10346&c=918271&a=220783&l=10140). Once you register you will have to confirm the email to access coupons.
 
 ![Walmart Coupons]({{ site.baseurl }}/image/blog/walmart-coupons.png)
 
