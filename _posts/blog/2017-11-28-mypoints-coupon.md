@@ -20,6 +20,7 @@ Coupons are also available for variety of product categories like TV, Kitchen Es
 
 You can get the coupons here. Once you register you will have to confirm the email to access coupons.
 
-![Walmart Coupons]({{ "walmart-coupons" | absolute_url }})
+![Walmart Coupons]({{ site.baseurl }}/image/blog/walmart-coupons.png)
+
 
 
