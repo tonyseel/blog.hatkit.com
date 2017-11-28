@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Veeresh
-title: "Mypoints Coupon"
+title: "Walmart $10, $50, $100 coupons offerred by MyPoints. Here's how you can claim them"
 date: 2017-11-28
 image: car-buyers-guide.jpg
 image-desc: Car Buyers Guide 
