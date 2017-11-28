@@ -14,7 +14,7 @@ Walmart is now offering $10, $50, $100 coupons in partnership with MyPoints. Wal
 
 As of now MyPoints members have been awarded $236 million in gift cards and cash. Coupons are also provided by coupons.com to benefit MyPoints members. This offer is only availabe for new MyPoints members. 
 
-MyPoints printable coupons are currently available for Windows Operating Systems 2000, XP and Vista when used with INternet Explorer 8, Netscape 8+, Firefox 8, MSL, AOL and Chrome browsers. In addition, be sure to turn off your pop up blocker. My Points printable coupons are currently not available for MAC users. 
+MyPoints printable coupons are currently available for Windows Operating Systems 2000, XP and Vista when used with Internet Explorer 8, Netscape 8+, Firefox 8, MSL, AOL and Chrome browsers. In addition, be sure to turn off your pop up blocker. My Points printable coupons are currently not available for MAC users. 
 
 Coupons are also available for variety of product categories like TV, Kitchen Essentials, Personal Care Gifts, Clothing and Jewelry, Watches, Furniture etc.
 
