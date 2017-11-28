@@ -16,10 +16,10 @@ paginate: 60
 paginate_path: "/blog/page:num/"
 
 #sociallinks
-facebook_username: crigroups
-twitter_username: crigroups   
-instagram_username: crigroups
-youtube_username: crigroups
+facebook_username: #
+twitter_username: #
+instagram_username: #
+youtube_username: #
 
 #frontpage
 featured-category: Health
