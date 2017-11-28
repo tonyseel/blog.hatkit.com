@@ -18,5 +18,5 @@ MyPoints printable coupons are currently available for Windows Operating Systems
 
 Coupons are also available for variety of product categories like TV, Kitchen Essentials, Personal Care Gifts, Clothing and Jewelry, Watches, Furniture etc.
 
-You can get the coupons here.
+You can get the coupons here. Once you register you will have to confirm the email to access coupons.
 
