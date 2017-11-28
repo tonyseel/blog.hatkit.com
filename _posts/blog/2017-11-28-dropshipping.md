@@ -12,7 +12,7 @@ category: blog
 
 Raena Lynn of Southern California never thought she could earn a living online until she discovered about dropshipping. It was only a matter of time and she was able to quit her two jobs and work from home, which allowed her to spend a lot more time with her 2 daughters. 
 
-I first learned about Raena Lynn from a colleague and decided to reach out to her and interview her for our work from home blog and special report.
+I first learned about Raena Lynn from a colleague and decided to reach out to her and interview her for our dropshipping blog and special report.
 
 "I actually make more money now each month dropshipping than I ever did previously with 2 or more jobs! I make more income now in 60 minutes a day than I could ever earn with a full-time job. My life completely revolves around my 2 daughters and this unique opportunity gives me the ability to work wherever I want and whenever I want."
 
@@ -35,5 +35,7 @@ In [success system](http://www.mb01.com/lnk.asp?o=4728&c=918271&a=220783&l=3606)
 - How to use Google trends in choosing products with very less copetition
 - How to use tools like TradeMap to identify various trade statistics and strategies
 - How to use various tools provided by Intracern to find manufacturers outside Alibaba
+- How to setup your website
+- Step by step instructions to sell online through an ecomerce store
 
 Raena Lynn has never shared her story before, this is the first time she's going public.
