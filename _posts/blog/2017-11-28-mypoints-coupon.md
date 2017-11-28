@@ -3,7 +3,7 @@ layout: post
 author: Veeresh
 title: "Walmart $10, $50, $100 coupons offered by MyPoints. Here's how you can claim them"
 date: 2017-11-28
-image: car-buyers-guide.jpg
+image: walmart-gift-card.png
 image-desc: Car Buyers Guide 
 tags: [Shopping]
 featured: "no"
