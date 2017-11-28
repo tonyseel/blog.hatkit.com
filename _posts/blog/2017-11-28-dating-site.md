@@ -18,7 +18,7 @@ Well, Tinder can keep their 20-year-old, cashless candidates. These dating sites
 
 [iHeartBreaker](http://www.mb103.com/lnk.asp?o=7668&c=918271&a=220783&l=6380)
 
-iHeartBreaker.com makes online dating easy and fun to meet local singles. Membership is free and you decide how much to reveal about yourself to local singles. Much the same as Tinder, iHeartBreaker connects you with people in your area, showing matches within just 250 metres from you. You had better hope you and your perfect match just happen to be at the same place at the same time.
+iHeartBreaker makes online dating easy and fun to meet local singles. Membership is free and you decide how much to reveal about yourself to local singles. Much the same as Tinder, iHeartBreaker connects you with people in your area, showing matches within just 250 metres from you. You had better hope you and your perfect match just happen to be at the same place at the same time.
 
 [Cindy Matches](http://www.mb102.com/lnk.asp?o=11802&c=918271&a=220783&l=12126)
 
