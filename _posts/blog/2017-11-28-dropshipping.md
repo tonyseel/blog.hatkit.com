@@ -1,10 +1,10 @@
 ---
 layout: post
 author: Sam
-title: "Brian Price interviews Raena Lynn, a dropshipping consultant on how she makes $5000 per month by sourcing products from Aliexpress"
+title: "Brian Price interviews Raena Lynn, on how she makes $5000 per month by dropshipping from Aliexpress"
 date: 2017-11-28
-image: walmart-gift-card.png
-image-desc: Car Buyers Guide 
+image: dropshipping.jpg
+image-desc: Dropshipping Guide 
 tags: [Shopping]
 featured: "no"
 category: blog
@@ -37,6 +37,3 @@ In success system, you will find various information like
 - How to use various tools provided by Intracern to find manufacturers outside Alibaba
 
 Raena Lynn has never shared her story before, this is the first time she's going public.
-
-
-![Walmart Coupons]({{ site.baseurl }}/image/blog/walmart-coupons.png)
